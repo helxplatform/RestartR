@@ -1,0 +1,67 @@
+#!/bin/bash
+#################################################################
+##
+##  RestartR  
+##
+##    Data collection API for UNC-CH Restart.
+##
+##
+#################################################################
+set -e#x
+
+#################################################################
+##
+##  Run the API
+##
+#################################################################
+api () {
+    python restartr/api.py $*
+}
+
+#################################################################
+##
+##  Test the API, given a file and number of iterations.
+##
+#################################################################
+tests () {
+    file=$1
+    iterations=$2
+    for x in $(seq 0 $iterations); do
+	curl -d @$file \
+	     --header "Content-Type: application/json" \
+	     --header "X-API-Key: $API_KEY" \
+	     --request POST \
+	     http://localhost:5552/observation
+    done
+}
+#################################################################
+##
+##  Stand up the database and an admin interface.
+##
+#################################################################
+stack () {
+    up () {
+	docker-compose up -d
+    }
+    down () {
+	docker-compose down
+    }
+    $*
+}
+#################################################################
+##
+##  Initialize the environment.
+##
+#################################################################
+init () {
+    export API_KEY=${API_KEY:-98079798709797v98709}
+    export MONGO_USERNAME=${MONGO_USERNAME:-root}
+    export MONGO_PASSWORD=${MONGO_PASSWORD:-example}
+    export MONOG_PORT=${MONGO_PORT:-27017}
+    export MONGO_HOST=${MONGO_HOST:-localhost}
+    export MONGO_URL="mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOST}:${MONGO_PORT}"
+}
+
+init
+
+$*

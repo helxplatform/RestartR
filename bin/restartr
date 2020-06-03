@@ -38,15 +38,29 @@ api () {
 ##
 #################################################################
 tests () {
-    file=$1
-    iterations=$2
-    for x in $(seq 0 $iterations); do
-	curl -d @$file \
-	     --header "Content-Type: application/json" \
-	     --header "X-API-Key: $API_KEY" \
-	     --request POST \
-	     http://localhost:5552/observation
-    done
+    observation () {
+	file=$1
+	iterations=$2
+	for x in $(seq 0 $iterations); do
+	    curl -d @$file \
+		 --header "Content-Type: application/json" \
+		 --header "X-API-Key: $API_KEY" \
+		 --request POST \
+		 http://localhost:5552/observation
+	done
+    }
+    query () {
+	file=$1
+	iterations=$2
+	for x in $(seq 0 $iterations); do
+	    curl -d @$file \
+		 --header "Content-Type: application/json" \
+		 --header "X-API-Key: $API_KEY" \
+		 --request POST \
+		 http://localhost:5552/query
+	done
+    }
+    $*
 }
 #################################################################
 ##

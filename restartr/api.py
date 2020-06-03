@@ -79,8 +79,13 @@ for attempt in range(0, 7):
         logger.info (f"-- unable to connect to db. pausing.")
         time.sleep (3)
 
-print (f"---------------connected")
-class ObservationResource(Resource):
+class RestartRResource(Resource):
+
+    """ Record an observation """
+    def __init__(self):
+        self.api_key = APIKey.get_key ()
+        logger.debug (f"-- constructed resource with api key.")
+
     """ Base class handler for API requests. """
     def create_response (self, result=None, status='success', message='', exception=None):
         """ Create a response. Handle formatting and modifiation of status for exceptions. """
@@ -97,12 +102,7 @@ class ObservationResource(Resource):
             'message' : message
         }
             
-class GenomicObservationResource(ObservationResource):
-    """ Record an observation """
-    def __init__(self):
-        self.api_key = APIKey.get_key ()
-        logger.debug (f"-- constructed observation resource with api key.")
-        
+class ObservationResource(RestartRResource):
     """ System initiation. """
     def post(self):
         """
@@ -110,9 +110,9 @@ class GenomicObservationResource(ObservationResource):
         
         ---
         tag: observation
-        description: Search for a string
+        description: Add an observation.
         requestBody:
-            description: Search request
+            description: Insert observation request.
             required: true
             content:
                 application/json:
@@ -125,7 +125,7 @@ class GenomicObservationResource(ObservationResource):
                     text/plain:
                         schema:
                             type: string
-                            example: "Nominal search"
+                            example: "Nominal observation"
             '400':
                 description: Malformed message
                 content:
@@ -134,7 +134,6 @@ class GenomicObservationResource(ObservationResource):
                             type: string
 
         """
-        print (f"---------------observation: ")
         logger.debug (f"observation:{json.dumps(request.json, indent=2)}")
         response = {}
         try:
@@ -153,9 +152,60 @@ class GenomicObservationResource(ObservationResource):
         logger.info (f"{json.dumps(response, indent=2)}")
         return response
 
+class ObservationQueryResource(RestartRResource):
+    """ System initiation. """
+    def post(self):
+        """
+        Query observations.
+        
+        ---
+        tag: observation
+        description: Query observations.
+        requestBody:
+            description: Query request.
+            required: true
+            content:
+                application/json:
+                    schema:
+                        type: object
+        responses:
+            '200':
+                description: Success
+                content:
+                    text/plain:
+                        schema:
+                            type: string
+                            example: "Nominal query"
+            '400':
+                description: Malformed message
+                content:
+                    text/plain:
+                        schema:
+                            type: string
+
+        """
+        logger.debug (f"observation-query:{json.dumps(request.json, indent=2)}")
+        response = {}
+        try:
+            obj = dict(request.json)
+            authenticated = request.headers['X-API-Key'] == self.api_key
+            assert authenticated, f"API Key presented does not match key configured for this system."
+            response = {
+                "id" : JSONEncoder().encode(
+                    [ x for x in observation.db.observation.find (obj) ]
+                )
+            }
+        except Exception as e:
+            response = self.create_response (
+                exception=e,
+                message=f"Query failed: {json.dumps(request.json, indent=2)}.")
+        logger.info (f"{json.dumps(response, indent=2)}")
+        return response
+    
 
 """ Register endpoints. """
-api.add_resource(GenomicObservationResource, '/observation')
+api.add_resource(ObservationResource, '/observation')
+api.add_resource(ObservationQueryResource, '/query')
 
 if __name__ == "__main__":
    parser = argparse.ArgumentParser(description='Genomic Observation API')

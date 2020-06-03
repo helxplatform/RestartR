@@ -2,8 +2,10 @@ import argparse
 import json
 import logging
 import os
+import pymongo
 import requests
 import sys
+import time
 import traceback
 import yaml
 import uuid
@@ -65,9 +67,18 @@ class APIKey:
     @staticmethod
     def get_key ():
         return APIKey.initialize ()
-    
-api_key = APIKey.initialize ()
 
+for attempt in range(0, 7):
+    logger.debug (f"-- attempting to connect to db.")
+    try:
+        api_key = APIKey.initialize ()
+        logger.debug (f"-- initialized db.")
+        break
+    except Exception as e:
+        traceback.print_exc ()
+        logger.debug (f"-- unable to connect to db. pausing.")
+        time.sleep (3)
+        
 class ObservationResource(Resource):
     """ Base class handler for API requests. """
     def create_response (self, result=None, status='success', message='', exception=None):

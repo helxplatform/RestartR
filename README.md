@@ -27,3 +27,8 @@ To test the API:
 ```
 bin/restartr tests data/a.json 1
 ```
+
+### Deployment
+As we move towards deployment, we'll create a Kubernetes Helm chart for the environment.
+This will use production environment secrets for the various passwords and API keys involved.
+

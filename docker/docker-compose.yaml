@@ -1,33 +1,31 @@
 ###########################################################################
 ##
 ##  RestartR
+##
+##    Data collection API for UNC-CH Restart.
 ##  
-##    The restarting 
+##    The restarting research project collects observations form 
+##    multiple data sources to characterize a cohort in the context
+##    of a pandemic environment.
 ##
-##    
+##    MongoDB provides the database.
 ##
+##    The RestartR API is a schemaless API providing a single data 
+##    observation recording endpoint. Authentication is provided via
+##    an API key.
 ##
+##    The Mongo-Express administration app is also included.
 ##
 ##
 ###########################################################################
 version: '3.1'
 services:
-
-  restartr:
-    image: heliumdatastage/restartr:0.0.1
-    networks:
-      - restartr-net
-    ports:
-      - 5552:5552
-    depends_on:
-      - mongo
-    environment:
-      MONGO_USERNAME: $MONGO_USERNAME
-      MONGO_PASSWORD: $MONGO_USERNAME
-      MONGO_PORT: 27017
-      MONGO_HOST: mongo
-      API_KEY: $API_KEY
-
+      
+  ################################################
+  ##
+  ## The MongoDB database.
+  ##
+  ################################################
   mongo:
     image: mongo:4.2
     networks:
@@ -38,6 +36,11 @@ services:
       MONGO_INITDB_ROOT_USERNAME: $MONGO_USERNAME
       MONGO_INITDB_ROOT_PASSWORD: $MONGO_PASSWORD
 
+  ################################################
+  ##
+  ## The Mongo-Express admin interface.
+  ##
+  ################################################
   mongo-express:
     image: mongo-express
     networks:
@@ -48,6 +51,25 @@ services:
       ME_CONFIG_MONGODB_ADMINUSERNAME: $MONGO_USERNAME
       ME_CONFIG_MONGODB_ADMINPASSWORD: $MONGO_PASSWORD
 
+  ################################################
+  ##
+  ## The HeLx RestartR API.
+  ##
+  ################################################
+  restartr:
+    image: heliumdatastage/restartr:0.0.1
+    networks:
+      - restartr-net
+    ports:
+      - 5552:5552
+    entrypoint: "bin/restartr api --debug"
+    environment:
+      MONGO_USERNAME: $MONGO_USERNAME
+      MONGO_PASSWORD: $MONGO_PASSWORD
+      MONGO_PORT: 27017
+      MONGO_HOST: mongo
+      API_KEY: $API_KEY
+      
 networks:
   restartr-net:
     driver: bridge

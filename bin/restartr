@@ -1,13 +1,27 @@
 #!/bin/bash
-#################################################################
+###########################################################################
 ##
-##  RestartR  
+##  RestartR
 ##
 ##    Data collection API for UNC-CH Restart.
+##  
+##    The restarting research project collects observations form 
+##    multiple data sources to characterize a cohort in the context
+##    of a pandemic environment.
+##
+##    This alpha aims to provide a schemaless observation interface.
+##    JSON messages are recorded in a single namespace. This will be 
+##    revisited as needed and as data specifications become clearer.
+##
+##    API authentication is done via an API key. Examples below illustrate
+##    the HTTP header interaction required.
+##
+##    
 ##
 ##
-#################################################################
-set -e #x
+###########################################################################
+set -e
+#set -x
 
 #################################################################
 ##
@@ -41,7 +55,10 @@ tests () {
 #################################################################
 stack () {
     up () {
-	docker-compose -f docker/docker-compose.yaml up -d
+	docker-compose -f docker/docker-compose.yaml up 
+    }
+    back () {
+	docker-compose -f docker/docker-compose.yaml up -d 
     }
     down () {
 	docker-compose -f docker/docker-compose.yaml down

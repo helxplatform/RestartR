@@ -45,10 +45,10 @@ swagger = Swagger(app)
 
 """ Connect to databases for various datatypes. Include authentication. """
 mongo_uri = os.environ['MONGO_URL']
-auth_src = "?authSource=admin"
-observation = PyMongo(app, uri=f"{mongo_uri}/observation{auth_src}")
-contact = PyMongo(app, uri=f"{mongo_uri}/contact{auth_src}")
-survey = PyMongo(app, uri=f"{mongo_uri}/survey{auth_src}")
+auth_src = "?authSource=admin&ssl=false&ssl_cert_reqs=CERT_NONE"
+observation = PyMongo(app, uri=f"{mongo_uri}/observation{auth_src}", ssl=False)
+#contact = PyMongo(app, uri=f"{mongo_uri}/contact{auth_src}")
+#survey = PyMongo(app, uri=f"{mongo_uri}/survey{auth_src}")
 
 class APIKey:
     """ Use environment provided API Key to secure services. """
@@ -69,16 +69,17 @@ class APIKey:
         return APIKey.initialize ()
 
 for attempt in range(0, 7):
-    logger.debug (f"-- attempting to connect to db.")
+    logger.info (f"-- attempting to connect to db.")
     try:
         api_key = APIKey.initialize ()
-        logger.debug (f"-- initialized db.")
+        logger.info (f"-- initialized db.")
         break
     except Exception as e:
         traceback.print_exc ()
-        logger.debug (f"-- unable to connect to db. pausing.")
+        logger.info (f"-- unable to connect to db. pausing.")
         time.sleep (3)
-        
+
+print (f"---------------connected")
 class ObservationResource(Resource):
     """ Base class handler for API requests. """
     def create_response (self, result=None, status='success', message='', exception=None):
@@ -100,6 +101,7 @@ class GenomicObservationResource(ObservationResource):
     """ Record an observation """
     def __init__(self):
         self.api_key = APIKey.get_key ()
+        logger.debug (f"-- constructed observation resource with api key.")
         
     """ System initiation. """
     def post(self):
@@ -132,6 +134,7 @@ class GenomicObservationResource(ObservationResource):
                             type: string
 
         """
+        print (f"---------------observation: ")
         logger.debug (f"observation:{json.dumps(request.json, indent=2)}")
         response = {}
         try:
@@ -160,9 +163,11 @@ if __name__ == "__main__":
    parser.add_argument('-d', '--debug', help="Debug log level.", default=False, action='store_true')
    args = parser.parse_args ()
 
+   debug = False
    """ Configure """
    if args.debug:
        debug = True
        logging.basicConfig(level=logging.DEBUG)
+       logger.debug (f"-- log level debug")
    logger.info (f"starting RestartR on port={args.port} with debug={args.debug}")
-   app.run(host='0.0.0.0', port=args.port, debug=args.debug, threaded=True)
+   app.run(host='0.0.0.0', port=args.port, debug=debug, threaded=True)

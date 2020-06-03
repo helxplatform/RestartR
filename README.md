@@ -1,5 +1,9 @@
 # RestartR
 
+RestartR is an API for collecting study observations.
+
+For now, it is schemaless. That is, it accepts data observations in any format.
+
 ## Development
 
 ### Installation

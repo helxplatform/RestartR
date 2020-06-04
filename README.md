@@ -44,3 +44,10 @@ bin/restartr tests query data/a.json 1
 As we move towards deployment, we'll create a Kubernetes Helm chart for the environment.
 This will use production environment secrets for the various passwords and API keys involved.
 
+### Example
+Running the query test:
+![image](https://user-images.githubusercontent.com/306971/83798235-f62ed100-a671-11ea-8a7b-1e2497c0e3a5.png)
+Output when running with the development server:
+![image](https://user-images.githubusercontent.com/306971/83798135-c67fc900-a671-11ea-9d0e-510e84ae5114.png)
+
+

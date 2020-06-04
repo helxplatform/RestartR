@@ -9,6 +9,13 @@ Operations are:
 * **observation**: Use HTTP post requests to record an observation.
 * **query**: Query the system for recorded observations.
 
+## Design
+
+RestrtR consists of
+* **API**: The observation API for recording observed events.
+* **MongoDB**: A document store database supporting schemaless events.
+* **Mongo-Express**: A web based user interface for MongoDB
+
 ## Development
 
 ### Installation

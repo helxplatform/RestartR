@@ -26,27 +26,10 @@ python3 -m venv ../restartr
 source ../restartr/bin/activate
 pip install -r requirements.txt
 ```
-### Running
-To start the stack (RestartR API, MongoDB, Mongo-Express) synchronously:
-```
-bin/restartr stack up
-```
-To start the stack in the background:
-```
-bin/restartr stack start
-```
-To run the API standalone, assuming you have a databse elsewhere:
-```
-bin/restartr api --debug
-```
-To test the observation API:
-```
-bin/restartr tests add data/a.json 1
-```
-To test the query API:
-```
-bin/restartr tests query data/a.json 1
-```
+### Help
+For help with the CLI interface, use `bin/restartr help`:
+![image](https://user-images.githubusercontent.com/306971/83816770-276ac980-a691-11ea-953e-596fab826c31.png)
+
 ### Deployment
 As we move towards deployment, we'll create a Kubernetes Helm chart for the environment.
 This will use production environment secrets for the various passwords and API keys involved.

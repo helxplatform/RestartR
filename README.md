@@ -44,6 +44,14 @@ bin/restartr tests query data/a.json 1
 As we move towards deployment, we'll create a Kubernetes Helm chart for the environment.
 This will use production environment secrets for the various passwords and API keys involved.
 
+### Execution modes
+The API can be run in a number of modes within the docker stack.
+1. `bin/restartr api` runs it with python.
+2. `bin/restartr api --debug` runs it with python in debug mode.
+3. `bin/restartr api_prod` runs it in gunicorn.
+All are accessible in the docker container.
+![image](https://user-images.githubusercontent.com/306971/83798374-2b3b2380-a672-11ea-9dc5-fd3b4d112c20.png)
+
 ### Example
 Running the query test:
 ![image](https://user-images.githubusercontent.com/306971/83798235-f62ed100-a671-11ea-8a7b-1e2497c0e3a5.png)

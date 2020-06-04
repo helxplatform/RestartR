@@ -221,9 +221,9 @@ class ObservationQueryResource(RestartRResource):
             authenticated = request.headers['X-API-Key'] == self.api_key
             assert authenticated, f"API Key presented does not match key configured for this system."
             response = {
-                "id" : JSONEncoder().encode(
+                "data" : json.loads (JSONEncoder().encode(
                     [ x for x in observation.db.observation.find (obj) ]
-                )
+                ))
             }
         except Exception as e:
             response = self.create_response (

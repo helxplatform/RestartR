@@ -1,0 +1,4121 @@
+{
+    "rec" : [
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGTCA_S133_L005",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGTCA_S133_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_00891_A583",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGTCA_S133_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ADV4-TTP1-A-1-0-R-A583-41"
+        },
+        "multiplex_barcode": "ATGTCA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGTCA_S133_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGTCA_S133_L005_R1_001.unaln.bam",
+        "file_size": 231699597,
+        "md5sum": "babe7d91d1172b60da616cc2307449ea",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGTCA_S133_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CTATAC_S145_L005",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CTATAC_S145_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_02688_A696",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CTATAC_S145_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0EG-TTP1-A-1-0-R-A696-41"
+        },
+        "multiplex_barcode": "CTATAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CTATAC_S145_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CTATAC_S145_L005_R1_001.unaln.bam",
+        "file_size": 161080375,
+        "md5sum": "fc3f5c04c461687ffd6f9777a84ae97f",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CTATAC_S145_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L005",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_02723_A696",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0BX-TTP1-A-1-0-R-A696-41"
+        },
+        "multiplex_barcode": "ATGAGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L005_R1_001.unaln.bam",
+        "file_size": 213067636,
+        "md5sum": "485ce2d05cab3d6b9ba9035776cb29da",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATTCCT_S149_L005",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATTCCT_S149_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_02724_A696",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATTCCT_S149_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0CL-TTP1-A-1-0-R-A696-41"
+        },
+        "multiplex_barcode": "ATTCCT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATTCCT_S149_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATTCCT_S149_L005_R1_001.unaln.bam",
+        "file_size": 261423937,
+        "md5sum": "134ca61c6b02cd4cf42c4c7d16332e46",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATTCCT_S149_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAAAAG_S150_L005",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAAAAG_S150_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_02725_A696",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAAAAG_S150_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0D2-TTP1-A-1-0-R-A696-41"
+        },
+        "multiplex_barcode": "CAAAAG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAAAAG_S150_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAAAAG_S150_L005_R1_001.unaln.bam",
+        "file_size": 223729469,
+        "md5sum": "85fa62a94555219fd5cc5d42a2142bd5",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAAAAG_S150_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CACCGG_S151_L005",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CACCGG_S151_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_02727_A696",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CACCGG_S151_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0E5-TTP1-A-1-0-R-A696-41"
+        },
+        "multiplex_barcode": "CACCGG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CACCGG_S151_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CACCGG_S151_L005_R1_001.unaln.bam",
+        "file_size": 205845848,
+        "md5sum": "e0e65eba23f0d4541f45a6721b3c000b",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CACCGG_S151_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CATTTT_S152_L005",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CATTTT_S152_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_02732_A696",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CATTTT_S152_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0CM-TTP1-A-1-0-R-A696-41"
+        },
+        "multiplex_barcode": "CATTTT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CATTTT_S152_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CATTTT_S152_L005_R1_001.unaln.bam",
+        "file_size": 234042079,
+        "md5sum": "09e4de7fad0d50ea15ccc364d7839bab",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CATTTT_S152_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CGGAAT_S153_L005",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CGGAAT_S153_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_02734_A696",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CGGAAT_S153_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0DQ-TTP1-A-1-0-R-A696-41"
+        },
+        "multiplex_barcode": "CGGAAT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CGGAAT_S153_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CGGAAT_S153_L005_R1_001.unaln.bam",
+        "file_size": 234477860,
+        "md5sum": "408bcb4eb6d339fc3a43ccef0529ffc7",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CGGAAT_S153_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L005",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_02738_A696",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0BC-TTP1-A-1-0-R-A696-41"
+        },
+        "multiplex_barcode": "GACGAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L005_R1_001.unaln.bam",
+        "file_size": 239607668,
+        "md5sum": "663216376c7fe63ea7d5725efd4d5fea",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTGGCC_S159_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTGGCC_S159_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05278_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTGGCC_S159_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2DQ-TTP1-A-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "GTGGCC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTGGCC_S159_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTGGCC_S159_L006_R1_001.unaln.bam",
+        "file_size": 157113459,
+        "md5sum": "41f5498c552b4031d8535d45863ed7ab",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTGGCC_S159_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTTTCG_S143_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTTTCG_S143_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05279_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTTTCG_S143_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2FH-TTP1-A-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "GTTTCG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTTTCG_S143_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTTTCG_S143_L006_R1_001.unaln.bam",
+        "file_size": 165916898,
+        "md5sum": "665f48c4329b5d43fa612f6e73f95210",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GTTTCG_S143_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GGTAGC_S160_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GGTAGC_S160_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05282_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GGTAGC_S160_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2VU-TTP1-A-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "GGTAGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GGTAGC_S160_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GGTAGC_S160_L006_R1_001.unaln.bam",
+        "file_size": 153310603,
+        "md5sum": "8c69c61f12e14ad6594931617ae9809a",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GGTAGC_S160_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTGAT_S161_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTGAT_S161_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05283_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTGAT_S161_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0CX-TTR1-B-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "ACTGAT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTGAT_S161_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTGAT_S161_L006_R1_001.unaln.bam",
+        "file_size": 166531793,
+        "md5sum": "09390fd12899b537784babab64a8eed6",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTGAT_S161_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_TTAGGC_S162_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_TTAGGC_S162_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05309_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_TTAGGC_S162_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2D9-TTP1-A-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "TTAGGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_TTAGGC_S162_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_TTAGGC_S162_L006_R1_001.unaln.bam",
+        "file_size": 186649923,
+        "md5sum": "cd6067228ab31871a86616bfb253f336",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_TTAGGC_S162_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTTGA_S163_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTTGA_S163_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05314_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTTGA_S163_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2X1-TTP1-A-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "ACTTGA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTTGA_S163_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTTGA_S163_L006_R1_001.unaln.bam",
+        "file_size": 183244569,
+        "md5sum": "e002b6892aed4f664994722715d7d5c0",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ACTTGA_S163_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_AGTCAA_S140_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_AGTCAA_S140_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05319_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_AGTCAA_S140_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2O8-TTP1-A-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "AGTCAA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_AGTCAA_S140_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_AGTCAA_S140_L006_R1_001.unaln.bam",
+        "file_size": 169179819,
+        "md5sum": "91784cc1defb09517383ef29a14cd9be",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_AGTCAA_S140_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05332_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2C6-TTP1-A-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "ATGAGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L006_R1_001.unaln.bam",
+        "file_size": 158750962,
+        "md5sum": "5eaa42b12831839cd627a4eb63701ccb",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_ATGAGC_S148_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAACTA_S164_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAACTA_S164_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05335_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAACTA_S164_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2QB-TTP1-A-8-0-R-A77L-41"
+        },
+        "multiplex_barcode": "CAACTA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAACTA_S164_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAACTA_S164_L006_R1_001.unaln.bam",
+        "file_size": 157915790,
+        "md5sum": "89ce41097262c0562895a127942a2cf3",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_CAACTA_S164_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05347_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B270-TTP1-A-2-0-R-A77L-41"
+        },
+        "multiplex_barcode": "GACGAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L006_R1_001.unaln.bam",
+        "file_size": 155445847,
+        "md5sum": "f7aaf7d605019a8c5535e590baceb3a2",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_GACGAC_S154_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCATTC_S146_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCATTC_S146_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05351_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCATTC_S146_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2QZ-TTP1-A-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "TCATTC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCATTC_S146_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCATTC_S146_L006_R1_001.unaln.bam",
+        "file_size": 163216696,
+        "md5sum": "4e588833f495532902f10e2d55084d96",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCATTC_S146_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCGAAG_S166_L006",
+        "experiment_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCGAAG_S166_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_05353_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCGAAG_S166_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2V4-TTP1-A-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "TCGAAG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190828",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7GVJBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCGAAG_S166_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCGAAG_S166_L006_R1_001.unaln.bam",
+        "file_size": 152453216,
+        "md5sum": "76d8d8c543e4ee432a02c4309e886ab7",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190828_UNC32-K00270_0200_BH7GVJBBXY_TCGAAG_S166_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_GTTTCG_S29_L007",
+        "experiment_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_GTTTCG_S29_L007",
+        "is_paired_end": false,
+        "library_name": "ALCH_04600_A77B",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_GTTTCG_S29_L007",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B286-TTP1-A-1-0-R-A77B-41"
+        },
+        "multiplex_barcode": "GTTTCG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190606",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7CTWBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_GTTTCG_S29_L007_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_GTTTCG_S29_L007_R1_001.unaln.bam",
+        "file_size": 202488263,
+        "md5sum": "fb766ca44111314a7a9fb7a14201d7e2",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_GTTTCG_S29_L007"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_GATCAG_S33_L003",
+        "experiment_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_GATCAG_S33_L003",
+        "is_paired_end": false,
+        "library_name": "ALCH_05315_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_GATCAG_S33_L003",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0CT-TTR1-A-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "GATCAG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190625",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH5LNLBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_GATCAG_S33_L003_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_GATCAG_S33_L003_R1_001.unaln.bam",
+        "file_size": 181674396,
+        "md5sum": "ce8c1414b24962dde40cb00421bc09af",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_GATCAG_S33_L003"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_TTAGGC_S43_L002",
+        "experiment_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_TTAGGC_S43_L002",
+        "is_paired_end": false,
+        "library_name": "ALCH_03908_A76J",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_TTAGGC_S43_L002",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B280-TTP1-A-1-0-R-A76J-41"
+        },
+        "multiplex_barcode": "TTAGGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190722",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7VGTBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_TTAGGC_S43_L002_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_TTAGGC_S43_L002_R1_001.unaln.bam",
+        "file_size": 170581859,
+        "md5sum": "ba3a5fcef64e900ba38bc30d78eef387",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_TTAGGC_S43_L002"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190510_UNC32-K00270_0173_AH7F7FBBXY_CATTTT_S45_L003",
+        "experiment_name": "190510_UNC32-K00270_0173_AH7F7FBBXY_CATTTT_S45_L003",
+        "is_paired_end": false,
+        "library_name": "ALCH_00911_A583",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190510_UNC32-K00270_0173_AH7F7FBBXY_CATTTT_S45_L003",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ADPV-TTP1-A-1-0-R-A583-41"
+        },
+        "multiplex_barcode": "CATTTT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190510",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7F7FBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190510_UNC32-K00270_0173_AH7F7FBBXY_CATTTT_S45_L003_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190510_UNC32-K00270_0173_AH7F7FBBXY_CATTTT_S45_L003_R1_001.unaln.bam",
+        "file_size": 180777806,
+        "md5sum": "c7ad0f395a033c9f327596b8cd06775d",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190510_UNC32-K00270_0173_AH7F7FBBXY_CATTTT_S45_L003"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_TCGAAG_S39_L002",
+        "experiment_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_TCGAAG_S39_L002",
+        "is_paired_end": false,
+        "library_name": "ALCH_03904_A76J",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_TCGAAG_S39_L002",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ABBU-TTR1-A-1-0-R-A76J-41"
+        },
+        "multiplex_barcode": "TCGAAG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190722",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7VGTBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_TCGAAG_S39_L002_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_TCGAAG_S39_L002_R1_001.unaln.bam",
+        "file_size": 210754102,
+        "md5sum": "0eaa0708f06b6ec66e9b67b4a7f28d4c",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_TCGAAG_S39_L002"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTGAT_S3_L001",
+        "experiment_name": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTGAT_S3_L001",
+        "is_paired_end": false,
+        "library_name": "ALCH_00597_A561",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTGAT_S3_L001",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ABP0-TTP1-A-1-0-R-A561-41"
+        },
+        "multiplex_barcode": "ACTGAT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190503",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7FFGBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTGAT_S3_L001_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTGAT_S3_L001_R1_001.unaln.bam",
+        "file_size": 184510895,
+        "md5sum": "fea2ff2a913c8aedbbc6a4386fb8c924",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTGAT_S3_L001"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190510_UNC32-K00270_0173_AH7F7FBBXY_TAATCG_S38_L004",
+        "experiment_name": "190510_UNC32-K00270_0173_AH7F7FBBXY_TAATCG_S38_L004",
+        "is_paired_end": false,
+        "library_name": "ALCH_00566_A561",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190510_UNC32-K00270_0173_AH7F7FBBXY_TAATCG_S38_L004",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ABPB-TTP1-A-1-0-R-A561-41"
+        },
+        "multiplex_barcode": "TAATCG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190510",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7F7FBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190510_UNC32-K00270_0173_AH7F7FBBXY_TAATCG_S38_L004_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190510_UNC32-K00270_0173_AH7F7FBBXY_TAATCG_S38_L004_R1_001.unaln.bam",
+        "file_size": 188789730,
+        "md5sum": "88d687a6d38aa3ad1674dec0396a11f8",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190510_UNC32-K00270_0173_AH7F7FBBXY_TAATCG_S38_L004"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_GGCTAC_S19_L007",
+        "experiment_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_GGCTAC_S19_L007",
+        "is_paired_end": false,
+        "library_name": "ALCH_04590_A77B",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_GGCTAC_S19_L007",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B27R-TTP1-A-1-0-R-A77B-41"
+        },
+        "multiplex_barcode": "GGCTAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190606",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7CTWBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_GGCTAC_S19_L007_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_GGCTAC_S19_L007_R1_001.unaln.bam",
+        "file_size": 192707073,
+        "md5sum": "5bd79ef5a3315afb78e39df3a2978150",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_GGCTAC_S19_L007"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_TCGGCA_S20_L004",
+        "experiment_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_TCGGCA_S20_L004",
+        "is_paired_end": false,
+        "library_name": "ALCH_05306_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_TCGGCA_S20_L004",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2X0-TTP1-A-1-0-R-A77L-41"
+        },
+        "multiplex_barcode": "TCGGCA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190625",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH5LNLBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_TCGGCA_S20_L004_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_TCGGCA_S20_L004_R1_001.unaln.bam",
+        "file_size": 251559356,
+        "md5sum": "548938765a0cdc4443cfc87bbff29365",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_TCGGCA_S20_L004"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_GCCAAT_S14_L004",
+        "experiment_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_GCCAAT_S14_L004",
+        "is_paired_end": false,
+        "library_name": "ALCH_04489_A77A",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_GCCAAT_S14_L004",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B205-TTP1-A-1-0-R-A77A-41"
+        },
+        "multiplex_barcode": "GCCAAT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190606",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7CTWBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_GCCAAT_S14_L004_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_GCCAAT_S14_L004_R1_001.unaln.bam",
+        "file_size": 204327384,
+        "md5sum": "ee0d33d5270e369c5ca6d426588e63d5",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_GCCAAT_S14_L004"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_TCATTC_S21_L003",
+        "experiment_name": "190709_UNC32-K00270_0189_AH5M23BBXY_TCATTC_S21_L003",
+        "is_paired_end": false,
+        "library_name": "ALCH_01023_A588",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190709_UNC32-K00270_0189_AH5M23BBXY_TCATTC_S21_L003",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ADW6-TTP1-A-1-0-R-A588-41"
+        },
+        "multiplex_barcode": "TCATTC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190709",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5M23BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_TCATTC_S21_L003_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190709_UNC32-K00270_0189_AH5M23BBXY_TCATTC_S21_L003_R1_001.unaln.bam",
+        "file_size": 221853416,
+        "md5sum": "5b53edc0e288c28cb890e0f6c3fc0be8",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_TCATTC_S21_L003"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_ACTGAT_S33_L006",
+        "experiment_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_ACTGAT_S33_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_04604_A77B",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_ACTGAT_S33_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B28E-TTP1-A-1-0-R-A77B-41"
+        },
+        "multiplex_barcode": "ACTGAT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190606",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7CTWBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_ACTGAT_S33_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_ACTGAT_S33_L006_R1_001.unaln.bam",
+        "file_size": 177728510,
+        "md5sum": "6c88145cfbfb086fd828d363f8a9d204",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_ACTGAT_S33_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190523_UNC32-K00270_0175_AH7F7GBBXY_GCCAAT_S27_L002",
+        "experiment_name": "190523_UNC32-K00270_0175_AH7F7GBBXY_GCCAAT_S27_L002",
+        "is_paired_end": false,
+        "library_name": "ALCH_02602_A681",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190523_UNC32-K00270_0175_AH7F7GBBXY_GCCAAT_S27_L002",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B023-TTP1-A-1-0-R-A681-41"
+        },
+        "multiplex_barcode": "GCCAAT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190523",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7F7GBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190523_UNC32-K00270_0175_AH7F7GBBXY_GCCAAT_S27_L002_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190523_UNC32-K00270_0175_AH7F7GBBXY_GCCAAT_S27_L002_R1_001.unaln.bam",
+        "file_size": 368715024,
+        "md5sum": "216fddcb706bf7512829f0917f159c38",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190523_UNC32-K00270_0175_AH7F7GBBXY_GCCAAT_S27_L002"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_TCGGCA_S23_L003",
+        "experiment_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_TCGGCA_S23_L003",
+        "is_paired_end": false,
+        "library_name": "ALCH_02859_A708",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_TCGGCA_S23_L003",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1LB-TTP1-A-1-0-R-A708-41"
+        },
+        "multiplex_barcode": "TCGGCA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190731",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7HH3BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_TCGGCA_S23_L003_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_TCGGCA_S23_L003_R1_001.unaln.bam",
+        "file_size": 189644459,
+        "md5sum": "c5de16085142c4458c47696bd50e24e3",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_TCGGCA_S23_L003"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L004",
+        "experiment_name": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L004",
+        "is_paired_end": false,
+        "library_name": "ALCH_00715_A562",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L004",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AC5O-TTP1-A-1-0-R-A562-41"
+        },
+        "multiplex_barcode": "TCGAAG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190320",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH53K3BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L004_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L004_R1_001.unaln.bam",
+        "file_size": 194567652,
+        "md5sum": "071ed0dd63e49a3e388c8532872082a3",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L004"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190702_UNC31-K00269_0228_BH5LYLBBXY_TCCCGA_S43_L002",
+        "experiment_name": "190702_UNC31-K00269_0228_BH5LYLBBXY_TCCCGA_S43_L002",
+        "is_paired_end": false,
+        "library_name": "ALCH_03901_A76A",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190702_UNC31-K00269_0228_BH5LYLBBXY_TCCCGA_S43_L002",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1TC-TTP1-A-1-0-R-A76A-41"
+        },
+        "multiplex_barcode": "TCCCGA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190702",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH5LYLBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190702_UNC31-K00269_0228_BH5LYLBBXY_TCCCGA_S43_L002_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190702_UNC31-K00269_0228_BH5LYLBBXY_TCCCGA_S43_L002_R1_001.unaln.bam",
+        "file_size": 197381402,
+        "md5sum": "08794fc9d34ec0337e55d9d2c41646e3",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190702_UNC31-K00269_0228_BH5LYLBBXY_TCCCGA_S43_L002"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGGCC_S16_L001",
+        "experiment_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGGCC_S16_L001",
+        "is_paired_end": false,
+        "library_name": "ALCH_03925_A76J",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGGCC_S16_L001",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1ZS-TTP1-A-1-0-R-A76J-41"
+        },
+        "multiplex_barcode": "GTGGCC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190722",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7VGTBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGGCC_S16_L001_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGGCC_S16_L001_R1_001.unaln.bam",
+        "file_size": 252535195,
+        "md5sum": "857de725f7644f9f3ae07579804bf078",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGGCC_S16_L001"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190702_UNC31-K00269_0227_AH5LYGBBXY_CACCGG_S28_L007",
+        "experiment_name": "190702_UNC31-K00269_0227_AH5LYGBBXY_CACCGG_S28_L007",
+        "is_paired_end": false,
+        "library_name": "ALCH_02481_A674",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190702_UNC31-K00269_0227_AH5LYGBBXY_CACCGG_S28_L007",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AEPJ-TTP1-A-2-0-R-A674-41"
+        },
+        "multiplex_barcode": "CACCGG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190702",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5LYGBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190702_UNC31-K00269_0227_AH5LYGBBXY_CACCGG_S28_L007_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190702_UNC31-K00269_0227_AH5LYGBBXY_CACCGG_S28_L007_R1_001.unaln.bam",
+        "file_size": 192716285,
+        "md5sum": "38e9c767e78ce3001086b16c550ea1c3",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190702_UNC31-K00269_0227_AH5LYGBBXY_CACCGG_S28_L007"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190430_UNC32-K00270_0170_AH5MLGBBXY_TACAGC_S37_L005",
+        "experiment_name": "190430_UNC32-K00270_0170_AH5MLGBBXY_TACAGC_S37_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_00235_A557",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190430_UNC32-K00270_0170_AH5MLGBBXY_TACAGC_S37_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AD9T-TTP1-A-1-0-R-A557-41"
+        },
+        "multiplex_barcode": "TACAGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190430",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5MLGBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190430_UNC32-K00270_0170_AH5MLGBBXY_TACAGC_S37_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190430_UNC32-K00270_0170_AH5MLGBBXY_TACAGC_S37_L005_R1_001.unaln.bam",
+        "file_size": 277815951,
+        "md5sum": "42c495577d105c55755b82860317104c",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190430_UNC32-K00270_0170_AH5MLGBBXY_TACAGC_S37_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_CACCGG_S30_L003",
+        "experiment_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_CACCGG_S30_L003",
+        "is_paired_end": false,
+        "library_name": "ALCH_04657_A77C",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_CACCGG_S30_L003",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2BR-TTP1-A-2-0-R-A77C-41"
+        },
+        "multiplex_barcode": "CACCGG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190612",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5LNCBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_CACCGG_S30_L003_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_CACCGG_S30_L003_R1_001.unaln.bam",
+        "file_size": 198057838,
+        "md5sum": "7a9e0ac182e63ff62b6fc6d53f52085d",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_CACCGG_S30_L003"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190430_UNC32-K00270_0170_AH5MLGBBXY_GGCTAC_S2_L004",
+        "experiment_name": "190430_UNC32-K00270_0170_AH5MLGBBXY_GGCTAC_S2_L004",
+        "is_paired_end": false,
+        "library_name": "ALCH_00251_A557",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190430_UNC32-K00270_0170_AH5MLGBBXY_GGCTAC_S2_L004",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ADA7-TTP1-A-1-0-R-A557-41"
+        },
+        "multiplex_barcode": "GGCTAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190430",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5MLGBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190430_UNC32-K00270_0170_AH5MLGBBXY_GGCTAC_S2_L004_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190430_UNC32-K00270_0170_AH5MLGBBXY_GGCTAC_S2_L004_R1_001.unaln.bam",
+        "file_size": 217149884,
+        "md5sum": "497e08d79728d8109344fdbb2e8fb3c6",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190430_UNC32-K00270_0170_AH5MLGBBXY_GGCTAC_S2_L004"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_GTGGCC_S120_L008",
+        "experiment_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_GTGGCC_S120_L008",
+        "is_paired_end": false,
+        "library_name": "ALCH_01633_A619",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_GTGGCC_S120_L008",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AEFA-TTP1-A-1-0-R-A619-41"
+        },
+        "multiplex_barcode": "GTGGCC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190710",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5MVWBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_GTGGCC_S120_L008_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_GTGGCC_S120_L008_R1_001.unaln.bam",
+        "file_size": 187985850,
+        "md5sum": "9772f6666f86750533a98a0c96f9ccf3",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_GTGGCC_S120_L008"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_CACGAT_S7_L003",
+        "experiment_name": "190709_UNC32-K00270_0189_AH5M23BBXY_CACGAT_S7_L003",
+        "is_paired_end": false,
+        "library_name": "ALCH_01006_A588",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190709_UNC32-K00270_0189_AH5M23BBXY_CACGAT_S7_L003",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AE2F-TTP1-A-1-0-R-A588-41"
+        },
+        "multiplex_barcode": "CACGAT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190709",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5M23BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_CACGAT_S7_L003_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190709_UNC32-K00270_0189_AH5M23BBXY_CACGAT_S7_L003_R1_001.unaln.bam",
+        "file_size": 272082692,
+        "md5sum": "30f86ad2e19cae68bee49d23afdecb18",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_CACGAT_S7_L003"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190702_UNC31-K00269_0228_BH5LYLBBXY_CCAACA_S48_L004",
+        "experiment_name": "190702_UNC31-K00269_0228_BH5LYLBBXY_CCAACA_S48_L004",
+        "is_paired_end": false,
+        "library_name": "ALCH_02536_A682",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190702_UNC31-K00269_0228_BH5LYLBBXY_CCAACA_S48_L004",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0B1-TTP1-A-1-0-R-A682-41"
+        },
+        "multiplex_barcode": "CCAACA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190702",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH5LYLBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190702_UNC31-K00269_0228_BH5LYLBBXY_CCAACA_S48_L004_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190702_UNC31-K00269_0228_BH5LYLBBXY_CCAACA_S48_L004_R1_001.unaln.bam",
+        "file_size": 166824353,
+        "md5sum": "b6c01ed24f6d83bf4b44a3c1b83faafc",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190702_UNC31-K00269_0228_BH5LYLBBXY_CCAACA_S48_L004"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTTGTA_S12_L002",
+        "experiment_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTTGTA_S12_L002",
+        "is_paired_end": false,
+        "library_name": "ALCH_04639_A77C",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTTGTA_S12_L002",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2AO-TTP1-A-1-0-R-A77C-41"
+        },
+        "multiplex_barcode": "CTTGTA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190612",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5LNCBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTTGTA_S12_L002_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTTGTA_S12_L002_R1_001.unaln.bam",
+        "file_size": 245832013,
+        "md5sum": "a4df2e031ec46344f486856916875a5d",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTTGTA_S12_L002"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L007",
+        "experiment_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L007",
+        "is_paired_end": false,
+        "library_name": "ALCH_04911_A779",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L007",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1NC-TTP1-A-1-0-R-A779-41"
+        },
+        "multiplex_barcode": "TCGAAG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190614",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7G7MBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L007_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L007_R1_001.unaln.bam",
+        "file_size": 269806191,
+        "md5sum": "b30cb3c9c99688669b2ef02f15956cc8",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L007"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_GAGTGG_S47_L002",
+        "experiment_name": "190709_UNC32-K00270_0189_AH5M23BBXY_GAGTGG_S47_L002",
+        "is_paired_end": false,
+        "library_name": "ALCH_01058_A597",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190709_UNC32-K00270_0189_AH5M23BBXY_GAGTGG_S47_L002",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AE7P-TTP1-A-1-0-R-A597-41"
+        },
+        "multiplex_barcode": "GAGTGG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190709",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5M23BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_GAGTGG_S47_L002_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190709_UNC32-K00270_0189_AH5M23BBXY_GAGTGG_S47_L002_R1_001.unaln.bam",
+        "file_size": 221630771,
+        "md5sum": "1a466be08dd08208bc476190297ef116",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_GAGTGG_S47_L002"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190529_UNC31-K00269_0219_BH7FTHBBXY_TCGGCA_S23_L001",
+        "experiment_name": "190529_UNC31-K00269_0219_BH7FTHBBXY_TCGGCA_S23_L001",
+        "is_paired_end": false,
+        "library_name": "ALCH_02842_A707",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190529_UNC31-K00269_0219_BH7FTHBBXY_TCGGCA_S23_L001",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1K0-TTP1-A-1-0-R-A707-41"
+        },
+        "multiplex_barcode": "TCGGCA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190529",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7FTHBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190529_UNC31-K00269_0219_BH7FTHBBXY_TCGGCA_S23_L001_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190529_UNC31-K00269_0219_BH7FTHBBXY_TCGGCA_S23_L001_R1_001.unaln.bam",
+        "file_size": 278708159,
+        "md5sum": "17330108945478983d86bab1e8265059",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190529_UNC31-K00269_0219_BH7FTHBBXY_TCGGCA_S23_L001"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_TCGAAG_S47_L005",
+        "experiment_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_TCGAAG_S47_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_04722_A77C",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_TCGAAG_S47_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AE85-TTR1-A-1-0-R-A77C-41"
+        },
+        "multiplex_barcode": "TCGAAG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190612",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5LNCBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_TCGAAG_S47_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_TCGAAG_S47_L005_R1_001.unaln.bam",
+        "file_size": 169675295,
+        "md5sum": "10438edc594cf98d3d6aedbbaff0ce38",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_TCGAAG_S47_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L006",
+        "experiment_name": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_00143_A556",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AD9K-TTP1-A-1-0-R-A556-41"
+        },
+        "multiplex_barcode": "TCGAAG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190320",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH53K3BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L006_R1_001.unaln.bam",
+        "file_size": 384185092,
+        "md5sum": "1f97a7bf2968ba8c3dd6967e7a0975d3",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190320_UNC32-K00270_0156_BH53K3BBXY_TCGAAG_S47_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_AGTTCC_S38_L007",
+        "experiment_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_AGTTCC_S38_L007",
+        "is_paired_end": false,
+        "library_name": "ALCH_01200_A607",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_AGTTCC_S38_L007",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AE8A-TTP1-A-1-0-R-A607-41"
+        },
+        "multiplex_barcode": "AGTTCC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190625",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH5LNLBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_AGTTCC_S38_L007_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_AGTTCC_S38_L007_R1_001.unaln.bam",
+        "file_size": 179515392,
+        "md5sum": "c3452e3c22523e5983e2d571556ab3b9",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_AGTTCC_S38_L007"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190503_UNC32-K00270_0172_AH7FFGBBXY_GGTAGC_S2_L001",
+        "experiment_name": "190503_UNC32-K00270_0172_AH7FFGBBXY_GGTAGC_S2_L001",
+        "is_paired_end": false,
+        "library_name": "ALCH_00596_A561",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190503_UNC32-K00270_0172_AH7FFGBBXY_GGTAGC_S2_L001",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ABXU-TTP1-A-1-0-R-A561-41"
+        },
+        "multiplex_barcode": "GGTAGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190503",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7FFGBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190503_UNC32-K00270_0172_AH7FFGBBXY_GGTAGC_S2_L001_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190503_UNC32-K00270_0172_AH7FFGBBXY_GGTAGC_S2_L001_R1_001.unaln.bam",
+        "file_size": 172375349,
+        "md5sum": "f27a1c5bdc146fdce9b186b450a883a5",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190503_UNC32-K00270_0172_AH7FFGBBXY_GGTAGC_S2_L001"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAAAAG_S89_L007",
+        "experiment_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAAAAG_S89_L007",
+        "is_paired_end": false,
+        "library_name": "ALCH_04394_A76O",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAAAAG_S89_L007",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B28H-TTP1-A-1-0-R-A76O-41"
+        },
+        "multiplex_barcode": "CAAAAG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190710",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5MVWBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAAAAG_S89_L007_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAAAAG_S89_L007_R1_001.unaln.bam",
+        "file_size": 163454908,
+        "md5sum": "a68fbb72716d1972b451034699d4b81f",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAAAAG_S89_L007"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTATAC_S39_L003",
+        "experiment_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTATAC_S39_L003",
+        "is_paired_end": false,
+        "library_name": "ALCH_04666_A77C",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTATAC_S39_L003",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2CL-TTP1-A-6-0-R-A77C-41"
+        },
+        "multiplex_barcode": "CTATAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190612",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5LNCBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTATAC_S39_L003_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTATAC_S39_L003_R1_001.unaln.bam",
+        "file_size": 168076433,
+        "md5sum": "9ce7de31c96f0cd3a883e92bf3ab11dd",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_CTATAC_S39_L003"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_CTATAC_S13_L002",
+        "experiment_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_CTATAC_S13_L002",
+        "is_paired_end": false,
+        "library_name": "ALCH_05345_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_CTATAC_S13_L002",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2V1-TTP1-A-2-0-R-A77L-41"
+        },
+        "multiplex_barcode": "CTATAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190625",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH5LNLBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_CTATAC_S13_L002_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_CTATAC_S13_L002_R1_001.unaln.bam",
+        "file_size": 181832216,
+        "md5sum": "973833d1759ff2559317c90089469f8c",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_CTATAC_S13_L002"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_CTCAGA_S16_L001",
+        "experiment_name": "190709_UNC32-K00270_0189_AH5M23BBXY_CTCAGA_S16_L001",
+        "is_paired_end": false,
+        "library_name": "ALCH_01079_A597",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190709_UNC32-K00270_0189_AH5M23BBXY_CTCAGA_S16_L001",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AELL-TTP1-A-1-0-R-A597-41"
+        },
+        "multiplex_barcode": "CTCAGA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190709",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5M23BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_CTCAGA_S16_L001_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190709_UNC32-K00270_0189_AH5M23BBXY_CTCAGA_S16_L001_R1_001.unaln.bam",
+        "file_size": 161362137,
+        "md5sum": "a5ca19058bed65f16decce913cc801fe",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190709_UNC32-K00270_0189_AH5M23BBXY_CTCAGA_S16_L001"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGAAA_S15_L001",
+        "experiment_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGAAA_S15_L001",
+        "is_paired_end": false,
+        "library_name": "ALCH_03924_A76J",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGAAA_S15_L001",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1YB-TTP1-A-1-0-R-A76J-41"
+        },
+        "multiplex_barcode": "GTGAAA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190722",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7VGTBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGAAA_S15_L001_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGAAA_S15_L001_R1_001.unaln.bam",
+        "file_size": 171485678,
+        "md5sum": "f9e7ac5d03c99e1a34c9bdd84fbfec62",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_GTGAAA_S15_L001"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_CTATAC_S15_L004",
+        "experiment_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_CTATAC_S15_L004",
+        "is_paired_end": false,
+        "library_name": "ALCH_05536_A781",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_CTATAC_S15_L004",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B3AR-TTP1-A-1-0-R-A781-41"
+        },
+        "multiplex_barcode": "CTATAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190614",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7G7MBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_CTATAC_S15_L004_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_CTATAC_S15_L004_R1_001.unaln.bam",
+        "file_size": 174531992,
+        "md5sum": "3c3d39e3afbef774b1e1fd528809e762",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_CTATAC_S15_L004"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190320_UNC32-K00270_0156_BH53K3BBXY_TTAGGC_S3_L003",
+        "experiment_name": "190320_UNC32-K00270_0156_BH53K3BBXY_TTAGGC_S3_L003",
+        "is_paired_end": false,
+        "library_name": "ALCH_00671_A562",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190320_UNC32-K00270_0156_BH53K3BBXY_TTAGGC_S3_L003",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ABZF-TTP1-A-1-0-R-A562-41"
+        },
+        "multiplex_barcode": "TTAGGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190320",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH53K3BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190320_UNC32-K00270_0156_BH53K3BBXY_TTAGGC_S3_L003_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190320_UNC32-K00270_0156_BH53K3BBXY_TTAGGC_S3_L003_R1_001.unaln.bam",
+        "file_size": 315817478,
+        "md5sum": "d5233b7663ea4d0e1a644fae9a49d14a",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190320_UNC32-K00270_0156_BH53K3BBXY_TTAGGC_S3_L003"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_CATTTT_S12_L001",
+        "experiment_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_CATTTT_S12_L001",
+        "is_paired_end": false,
+        "library_name": "ALCH_05909_A78C",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_CATTTT_S12_L001",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ABDS-TTP1-A-2-0-R-A78C-41"
+        },
+        "multiplex_barcode": "CATTTT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190731",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7HH3BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_CATTTT_S12_L001_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_CATTTT_S12_L001_R1_001.unaln.bam",
+        "file_size": 160238690,
+        "md5sum": "c6468ddd2c44addc9a33a0cfe1e5ff4b",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_CATTTT_S12_L001"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "181219_UNC31-K00269_0173_BHYGJJBBXX_CTATAC_S38_L008",
+        "experiment_name": "181219_UNC31-K00269_0173_BHYGJJBBXX_CTATAC_S38_L008",
+        "is_paired_end": false,
+        "library_name": "ALCH_00323_A558",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "181219_UNC31-K00269_0173_BHYGJJBBXX_CTATAC_S38_L008",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ADWO-TTP1-A-1-0-R-A558-41"
+        },
+        "multiplex_barcode": "CTATAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20181219",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BHYGJJBBXX"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "181219_UNC31-K00269_0173_BHYGJJBBXX_CTATAC_S38_L008_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "181219_UNC31-K00269_0173_BHYGJJBBXX_CTATAC_S38_L008_R1_001.unaln.bam",
+        "file_size": 205315657,
+        "md5sum": "0ba79095fb44cd361a41c1110684c8e8",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "181219_UNC31-K00269_0173_BHYGJJBBXX_CTATAC_S38_L008"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_TAATCG_S50_L008",
+        "experiment_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_TAATCG_S50_L008",
+        "is_paired_end": false,
+        "library_name": "ALCH_04573_A77B",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_TAATCG_S50_L008",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B26V-TTP1-A-1-0-R-A77B-41"
+        },
+        "multiplex_barcode": "TAATCG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190606",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7CTWBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_TAATCG_S50_L008_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_TAATCG_S50_L008_R1_001.unaln.bam",
+        "file_size": 256196388,
+        "md5sum": "dc3df48ca5f030fc5601d8614e354547",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_TAATCG_S50_L008"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190517_UNC31-K00269_0216_AH5JVLBBXY_TCATTC_S44_L003",
+        "experiment_name": "190517_UNC31-K00269_0216_AH5JVLBBXY_TCATTC_S44_L003",
+        "is_paired_end": false,
+        "library_name": "ALCH_01758_A637",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190517_UNC31-K00269_0216_AH5JVLBBXY_TCATTC_S44_L003",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AERD-TTP1-A-1-0-R-A637-41"
+        },
+        "multiplex_barcode": "TCATTC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190517",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5JVLBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190517_UNC31-K00269_0216_AH5JVLBBXY_TCATTC_S44_L003_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190517_UNC31-K00269_0216_AH5JVLBBXY_TCATTC_S44_L003_R1_001.unaln.bam",
+        "file_size": 172296821,
+        "md5sum": "ee20134aff81c19bf3ea99daa4ee2c69",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190517_UNC31-K00269_0216_AH5JVLBBXY_TCATTC_S44_L003"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_CATGGC_S10_L007",
+        "experiment_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_CATGGC_S10_L007",
+        "is_paired_end": false,
+        "library_name": "ALCH_04898_A779",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_CATGGC_S10_L007",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1MM-TTP1-A-1-0-R-A779-41"
+        },
+        "multiplex_barcode": "CATGGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190614",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7G7MBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_CATGGC_S10_L007_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_CATGGC_S10_L007_R1_001.unaln.bam",
+        "file_size": 198730347,
+        "md5sum": "b2fd14bde8b4488c5f9c9d92d4290b5f",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_CATGGC_S10_L007"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_CCGTCC_S40_L005",
+        "experiment_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_CCGTCC_S40_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_05274_A77L",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_CCGTCC_S40_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2VM-TTP1-A-4-0-R-A77L-41"
+        },
+        "multiplex_barcode": "CCGTCC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190625",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH5LNLBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_CCGTCC_S40_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190625_UNC32-K00270_0186_BH5LNLBBXY_CCGTCC_S40_L005_R1_001.unaln.bam",
+        "file_size": 180954214,
+        "md5sum": "214b11e3c950fe631e16b0bab287492e",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190625_UNC32-K00270_0186_BH5LNLBBXY_CCGTCC_S40_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_ACTTGA_S8_L008",
+        "experiment_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_ACTTGA_S8_L008",
+        "is_paired_end": false,
+        "library_name": "ALCH_04824_A778",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_ACTTGA_S8_L008",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1UW-TTP1-A-2-0-R-A778-41"
+        },
+        "multiplex_barcode": "ACTTGA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190612",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5LNCBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_ACTTGA_S8_L008_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_ACTTGA_S8_L008_R1_001.unaln.bam",
+        "file_size": 357484475,
+        "md5sum": "bf11ddeb1a20432dd9288018768fa8cb",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_ACTTGA_S8_L008"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAACTA_S88_L007",
+        "experiment_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAACTA_S88_L007",
+        "is_paired_end": false,
+        "library_name": "ALCH_04399_A76O",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAACTA_S88_L007",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1YQ-TTP1-A-1-0-R-A76O-41"
+        },
+        "multiplex_barcode": "CAACTA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190710",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5MVWBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAACTA_S88_L007_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAACTA_S88_L007_R1_001.unaln.bam",
+        "file_size": 172656307,
+        "md5sum": "351a999c0679219cbae5430990b89369",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_CAACTA_S88_L007"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_GACGAC_S18_L003",
+        "experiment_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_GACGAC_S18_L003",
+        "is_paired_end": false,
+        "library_name": "ALCH_02852_A708",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_GACGAC_S18_L003",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AE1E-TTR1-A-1-0-R-A708-41"
+        },
+        "multiplex_barcode": "GACGAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190731",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7HH3BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_GACGAC_S18_L003_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_GACGAC_S18_L003_R1_001.unaln.bam",
+        "file_size": 159947386,
+        "md5sum": "e5eeb72598e5713d4b0b7ea5412489de",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_GACGAC_S18_L003"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L001",
+        "experiment_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L001",
+        "is_paired_end": false,
+        "library_name": "ALCH_04863_A778",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L001",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1X3-TTP1-A-1-0-R-A778-41"
+        },
+        "multiplex_barcode": "TCGAAG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190614",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7G7MBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L001_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L001_R1_001.unaln.bam",
+        "file_size": 271476912,
+        "md5sum": "725c8ddc76a44617b9512a199d60cb80",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_TCGAAG_S23_L001"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTTGA_S124_L005",
+        "experiment_name": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTTGA_S124_L005",
+        "is_paired_end": false,
+        "library_name": "ALCH_00436_A560",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTTGA_S124_L005",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ABNY-TTP1-A-1-0-R-A560-41"
+        },
+        "multiplex_barcode": "ACTTGA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190503",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7FFGBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTTGA_S124_L005_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTTGA_S124_L005_R1_001.unaln.bam",
+        "file_size": 295474018,
+        "md5sum": "3b01002355b8fb8e571c9b90d06a2c79",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190503_UNC32-K00270_0172_AH7FFGBBXY_ACTTGA_S124_L005"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190523_UNC32-K00270_0175_AH7F7GBBXY_ATTCCT_S2_L007",
+        "experiment_name": "190523_UNC32-K00270_0175_AH7F7GBBXY_ATTCCT_S2_L007",
+        "is_paired_end": false,
+        "library_name": "ALCH_02676_A696",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190523_UNC32-K00270_0175_AH7F7GBBXY_ATTCCT_S2_L007",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B0C9-TTP1-A-1-0-R-A696-41"
+        },
+        "multiplex_barcode": "ATTCCT",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190523",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7F7GBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190523_UNC32-K00270_0175_AH7F7GBBXY_ATTCCT_S2_L007_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190523_UNC32-K00270_0175_AH7F7GBBXY_ATTCCT_S2_L007_R1_001.unaln.bam",
+        "file_size": 260591703,
+        "md5sum": "dc9b11921b5e781f9719017c566d2c5c",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190523_UNC32-K00270_0175_AH7F7GBBXY_ATTCCT_S2_L007"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190523_UNC32-K00270_0175_AH7F7GBBXY_GATCAG_S30_L004",
+        "experiment_name": "190523_UNC32-K00270_0175_AH7F7GBBXY_GATCAG_S30_L004",
+        "is_paired_end": false,
+        "library_name": "ALCH_02557_A681",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190523_UNC32-K00270_0175_AH7F7GBBXY_GATCAG_S30_L004",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AE4S-TTP1-A-1-0-R-A681-41"
+        },
+        "multiplex_barcode": "GATCAG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190523",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7F7GBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190523_UNC32-K00270_0175_AH7F7GBBXY_GATCAG_S30_L004_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190523_UNC32-K00270_0175_AH7F7GBBXY_GATCAG_S30_L004_R1_001.unaln.bam",
+        "file_size": 265852634,
+        "md5sum": "51b97f0eaf203ffd42223b69158dbe98",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190523_UNC32-K00270_0175_AH7F7GBBXY_GATCAG_S30_L004"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_TTAGGC_S24_L004",
+        "experiment_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_TTAGGC_S24_L004",
+        "is_paired_end": false,
+        "library_name": "ALCH_00719_A563",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_TTAGGC_S24_L004",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AC7L-TTP1-A-1-0-R-A563-41"
+        },
+        "multiplex_barcode": "TTAGGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190731",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7HH3BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_TTAGGC_S24_L004_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_TTAGGC_S24_L004_R1_001.unaln.bam",
+        "file_size": 160772027,
+        "md5sum": "4c8828b6f1ea67faa0937fb42597ed36",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_TTAGGC_S24_L004"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGCTAC_S11_L006",
+        "experiment_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGCTAC_S11_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_04779_A778",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGCTAC_S11_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1RA-TTP1-A-1-0-R-A778-41"
+        },
+        "multiplex_barcode": "GGCTAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190612",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5LNCBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGCTAC_S11_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGCTAC_S11_L006_R1_001.unaln.bam",
+        "file_size": 220493676,
+        "md5sum": "d6397702e9d063df20ca088d943ef460",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGCTAC_S11_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_GAGTGG_S23_L004",
+        "experiment_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_GAGTGG_S23_L004",
+        "is_paired_end": false,
+        "library_name": "ALCH_04698_A77C",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_GAGTGG_S23_L004",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2MO-TTP1-A-1-0-R-A77C-41"
+        },
+        "multiplex_barcode": "GAGTGG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190612",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5LNCBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_GAGTGG_S23_L004_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_GAGTGG_S23_L004_R1_001.unaln.bam",
+        "file_size": 214145052,
+        "md5sum": "bba4e97c9cff8f1334751822a30e5e4a",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_GAGTGG_S23_L004"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_ATCACG_S1_L006",
+        "experiment_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_ATCACG_S1_L006",
+        "is_paired_end": false,
+        "library_name": "ALCH_04769_A778",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_ATCACG_S1_L006",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1Q8-TTP1-A-1-0-R-A778-41"
+        },
+        "multiplex_barcode": "ATCACG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190612",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5LNCBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_ATCACG_S1_L006_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_ATCACG_S1_L006_R1_001.unaln.bam",
+        "file_size": 209577202,
+        "md5sum": "beb058e356dd462dccc2ffb2fe55a63c",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_ATCACG_S1_L006"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_CAGGCG_S41_L008",
+        "experiment_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_CAGGCG_S41_L008",
+        "is_paired_end": false,
+        "library_name": "ALCH_04564_A77B",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_CAGGCG_S41_L008",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B26F-TTP1-A-3-0-R-A77B-41"
+        },
+        "multiplex_barcode": "CAGGCG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190606",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7CTWBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_CAGGCG_S41_L008_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190606_UNC31-K00269_0220_AH7CTWBBXY_CAGGCG_S41_L008_R1_001.unaln.bam",
+        "file_size": 198214612,
+        "md5sum": "d07dc27febfd4e8a4af03f5989c8efb7",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190606_UNC31-K00269_0220_AH7CTWBBXY_CAGGCG_S41_L008"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGTAGC_S24_L001",
+        "experiment_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGTAGC_S24_L001",
+        "is_paired_end": false,
+        "library_name": "ALCH_04555_A77B",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGTAGC_S24_L001",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B260-TTP1-A-1-0-R-A77B-41"
+        },
+        "multiplex_barcode": "GGTAGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190612",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5LNCBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGTAGC_S24_L001_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGTAGC_S24_L001_R1_001.unaln.bam",
+        "file_size": 167758174,
+        "md5sum": "e9d975c30d2fd9ffe7808e89031c50ee",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190612_UNC31-K00269_0222_AH5LNCBBXY_GGTAGC_S24_L001"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_CTATAC_S80_L007",
+        "experiment_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_CTATAC_S80_L007",
+        "is_paired_end": false,
+        "library_name": "ALCH_04417_A76O",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_CTATAC_S80_L007",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B26X-TTP1-A-5-0-R-A76O-41"
+        },
+        "multiplex_barcode": "CTATAC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190710",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH5MVWBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_CTATAC_S80_L007_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190710_UNC31-K00269_0230_AH5MVWBBXY_CTATAC_S80_L007_R1_001.unaln.bam",
+        "file_size": 280177748,
+        "md5sum": "b15ac3cb0991c89ebdbea95be9f0ca9e",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190710_UNC31-K00269_0230_AH5MVWBBXY_CTATAC_S80_L007"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_TTAGGC_S27_L003",
+        "experiment_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_TTAGGC_S27_L003",
+        "is_paired_end": false,
+        "library_name": "ALCH_05548_A781",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_TTAGGC_S27_L003",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B2PS-TTP1-A-1-0-R-A781-41"
+        },
+        "multiplex_barcode": "TTAGGC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190614",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7G7MBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_TTAGGC_S27_L003_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190614_UNC32-K00270_0181_AH7G7MBBXY_TTAGGC_S27_L003_R1_001.unaln.bam",
+        "file_size": 168752041,
+        "md5sum": "cd2025e388e0cfe6b9d90a149fe5f383",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190614_UNC32-K00270_0181_AH7G7MBBXY_TTAGGC_S27_L003"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_CGTACG_S18_L001",
+        "experiment_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_CGTACG_S18_L001",
+        "is_paired_end": false,
+        "library_name": "ALCH_03927_A76J",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_CGTACG_S18_L001",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-B1WG-TTP1-A-1-0-R-A76J-41"
+        },
+        "multiplex_barcode": "CGTACG",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190722",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "AH7VGTBBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_CGTACG_S18_L001_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190722_UNC31-K00269_0234_AH7VGTBBXY_CGTACG_S18_L001_R1_001.unaln.bam",
+        "file_size": 196361976,
+        "md5sum": "932020a7adda86b9a018489b239a99b7",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190722_UNC31-K00269_0234_AH7VGTBBXY_CGTACG_S18_L001"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "181219_UNC31-K00269_0173_BHYGJJBBXX_CCGTCC_S16_L007",
+        "experiment_name": "181219_UNC31-K00269_0173_BHYGJJBBXX_CCGTCC_S16_L007",
+        "is_paired_end": false,
+        "library_name": "ALCH_00299_A558",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "181219_UNC31-K00269_0173_BHYGJJBBXX_CCGTCC_S16_L007",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-ADT8-TTP1-A-5-0-R-A558-41"
+        },
+        "multiplex_barcode": "CCGTCC",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20181219",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BHYGJJBBXX"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "181219_UNC31-K00269_0173_BHYGJJBBXX_CCGTCC_S16_L007_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "181219_UNC31-K00269_0173_BHYGJJBBXX_CCGTCC_S16_L007_R1_001.unaln.bam",
+        "file_size": 208503373,
+        "md5sum": "3685dad3998c2160ae45962bcb91d47e",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "181219_UNC31-K00269_0173_BHYGJJBBXX_CCGTCC_S16_L007"
+            }
+        ]
+    },
+    {
+        "type": "read_group",
+        "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_GTGAAA_S40_L004",
+        "experiment_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_GTGAAA_S40_L004",
+        "is_paired_end": false,
+        "library_name": "ALCH_00735_A563",
+        "library_strategy": "miRNA-Seq",
+        "target_capture_kit": "Not Applicable",
+        "platform": "Illumina",
+        "read_group_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_GTGAAA_S40_L004",
+        "read_length": 50,
+        "sequencing_center": "unc.edu",
+        "aliquots": {
+            "submitter_id": "ALCH-AC6L-TTP1-A-1-0-R-A563-41"
+        },
+        "multiplex_barcode": "GTGAAA",
+        "library_strand": "First_Stranded",
+        "library_preparation_kit_name": "NEXTflex Small RNA-Seq Kit v3",
+        "base_caller_version": "v2.20.0.422",
+        "base_caller_name": "bcl2fastq2",
+        "spike_ins_concentration": "1",
+        "sequencing_date": "20190731",
+        "spike_ins_fasta": "None",
+        "library_selection": "miRNA Size Fractionation",
+        "library_preparation_kit_catalog_number": "5132-05",
+        "library_preparation_kit_vendor": "Perkin Elmer",
+        "project_id": "ALCHEMIST-ALCH",
+        "instrument_model": "Illumina HiSeq 2500",
+        "includes_spike_ins": false,
+        "flow_cell_barcode": "BH7HH3BBXY"
+    },
+    {
+        "type": "submitted_unaligned_reads",
+        "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_GTGAAA_S40_L004_R1",
+        "data_category": "Sequencing Reads",
+        "data_format": "BAM",
+        "data_type": "Unaligned Reads",
+        "experimental_strategy": "miRNA-Seq",
+        "file_name": "190731_UNC31-K00269_0236_BH7HH3BBXY_GTGAAA_S40_L004_R1_001.unaln.bam",
+        "file_size": 160261987,
+        "md5sum": "4f0e92daba63876f84fd58a4a9c0cafb",
+        "project_id": "ALCHEMIST-ALCH",
+        "read_pair_number": "R1",
+        "read_groups": [
+            {
+                "submitter_id": "190731_UNC31-K00269_0236_BH7HH3BBXY_GTGAAA_S40_L004"
+            }
+        ]
+    }
+]
+
+}

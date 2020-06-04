@@ -62,7 +62,7 @@ services:
       - restartr-net
     ports:
       - 5552:5552
-    entrypoint: "/home/restartr/restartr/bin/restartr api_prod"
+    entrypoint: "/home/restartr/restartr/bin/restartr api"
     volumes:
       - $PWD:/home/restartr/restartr
     environment:

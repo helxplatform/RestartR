@@ -41,7 +41,7 @@ api_prod () {
 ##
 #################################################################
 tests () {
-    observation () {
+    add () {
 	file=$1
 	iterations=$2
 	for x in $(seq 0 $iterations); do
@@ -49,6 +49,7 @@ tests () {
 		 --header "Content-Type: application/json" \
 		 --header "X-API-Key: $API_KEY" \
 		 --request POST \
+		 --silent \
 		 http://localhost:5552/observation
 	done
     }
@@ -60,6 +61,7 @@ tests () {
 		 --header "Content-Type: application/json" \
 		 --header "X-API-Key: $API_KEY" \
 		 --request POST \
+		 --silent \
 		 http://localhost:5552/query
 	done
     }
@@ -74,7 +76,7 @@ stack () {
     up () {
 	docker-compose -f docker/docker-compose.yaml up 
     }
-    back () {
+    start () {
 	docker-compose -f docker/docker-compose.yaml up -d 
     }
     down () {
@@ -97,6 +99,30 @@ init () {
     export MONGO_PORT=${MONGO_PORT:-27017}
     export MONGO_HOST=${MONGO_HOST:-localhost}
     export MONGO_URL="mongodb://${MONGO_USERNAME}:${MONGO_PASSWORD}@${MONGO_HOST}:${MONGO_PORT}"
+}
+
+#################################################################
+##
+## Help message
+##
+#################################################################
+help () {
+    printf "
+Observation API
+  $0 api         \t Run the API
+  $0 api --debug \t Run the API in debug mode. Not suitable for production.
+  $0 api_prod    \t Run the API in Gunicorn. Suitable for production.
+
+Tests
+  $0 tests add F N \t Test posting file F to the API N times.
+  $0 tests query F N \t Test querying the API with F N times.
+
+Stack
+  $0 stack up    \t Run the stack (MongoDB, Mongo-Express, RestartR API) synchronously.
+  $0 stack start \t Run the stack in the background.
+  $0 stack down  \t Stop the stack.
+
+"
 }
 
 init

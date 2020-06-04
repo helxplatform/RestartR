@@ -47,6 +47,7 @@ This will use production environment secrets for the various passwords and API k
 ### Secrets
 Secrets are passed via environment variables in development and production modes:
 ![image](https://user-images.githubusercontent.com/306971/83798948-0abf9900-a673-11ea-8eda-7e9d51043dab.png)
+Defaults are provided in development but cal all be overriden with Docker ENV variables in Kubernetes.
 
 ### Execution modes
 The API can be run in a number of modes within the docker stack.

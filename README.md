@@ -49,6 +49,11 @@ Secrets are passed via environment variables in development and production modes
 ![image](https://user-images.githubusercontent.com/306971/83798948-0abf9900-a673-11ea-8eda-7e9d51043dab.png)
 Defaults are provided in development but cal all be overriden with Docker ENV variables in Kubernetes.
 
+### API Key
+The API requires a key which is set via the X-API-Key HTTP header.
+The bin/restartr script contains examples:
+![image](https://user-images.githubusercontent.com/306971/83805701-5cb9ec00-a67e-11ea-9f29-b234ed8bf29f.png)
+
 ### Execution modes
 The API can be run in a number of modes within the docker stack.
 1. `bin/restartr api` runs it with python.

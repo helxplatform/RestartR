@@ -50,7 +50,7 @@ The API can be run in a number of modes within the docker stack.
 2. `bin/restartr api --debug` runs it with python in debug mode.
 3. `bin/restartr api_prod` runs it in gunicorn.
 All are accessible in the docker container.
-![image](https://user-images.githubusercontent.com/306971/83798374-2b3b2380-a672-11ea-9dc5-fd3b4d112c20.png)
+![image](https://user-images.githubusercontent.com/306971/83798858-dfd54500-a672-11ea-9176-fd1d862dca72.png)
 
 ### Example
 Running the query test:

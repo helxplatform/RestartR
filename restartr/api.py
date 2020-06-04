@@ -82,9 +82,8 @@ for attempt in range(0, 7):
 class RestartRResource(Resource):
 
     """ Record an observation """
-    def __init__(self):
-        self.api_key = APIKey.get_key ()
-        logger.debug (f"-- constructed resource with api key.")
+    def __init__(self, api_key):
+        self.api_key = api_key
 
     """ Base class handler for API requests. """
     def create_response (self, result=None, status='success', message='', exception=None):
@@ -118,6 +117,20 @@ class ObservationResource(RestartRResource):
                 application/json:
                     schema:
                         type: object
+
+                        properties:
+                          foo:
+                            type: string
+                          bar:
+                            type: string
+                          baz:
+                            type: string
+                    example:
+                        metadata:
+                            date : "yyyymmdd"
+                            timestamp: "109379172344860101937"
+                            origin : "lab-x"
+                        opaque_id : "p45l2kjq5q34adfaoihakbalkjbialh3453"
         responses:
             '200':
                 description: Success
@@ -133,6 +146,19 @@ class ObservationResource(RestartRResource):
                         schema:
                             type: string
 
+        parameters:
+            - in: body
+              name: observation
+              schema:
+                type: object
+              example:
+                metadata:
+                  date : "yyyymmdd"
+                  timestamp: "109379172344860101937"
+                  origin : "lab-x"
+                opaque_id : "p45l2kjq5q34adfaoihakbalkjbialh3453"
+              required: true
+              description: The observation to record.
         """
         logger.debug (f"observation:{json.dumps(request.json, indent=2)}")
         response = {}
@@ -149,7 +175,6 @@ class ObservationResource(RestartRResource):
             response = self.create_response (
                 exception=e,
                 message=f"Insert failed: {json.dumps(request.json, indent=2)}.")
-        logger.info (f"{json.dumps(response, indent=2)}")
         return response
 
 class ObservationQueryResource(RestartRResource):
@@ -168,6 +193,12 @@ class ObservationQueryResource(RestartRResource):
                 application/json:
                     schema:
                         type: object
+                    example:
+                      nodes:
+                        - id: n0
+                          type: chemical_substance
+                        - id: n1
+                          type: gene
         responses:
             '200':
                 description: Success
@@ -184,7 +215,6 @@ class ObservationQueryResource(RestartRResource):
                             type: string
 
         """
-        logger.debug (f"observation-query:{json.dumps(request.json, indent=2)}")
         response = {}
         try:
             obj = dict(request.json)
@@ -199,13 +229,13 @@ class ObservationQueryResource(RestartRResource):
             response = self.create_response (
                 exception=e,
                 message=f"Query failed: {json.dumps(request.json, indent=2)}.")
-        logger.info (f"{json.dumps(response, indent=2)}")
         return response
     
 
 """ Register endpoints. """
-api.add_resource(ObservationResource, '/observation')
-api.add_resource(ObservationQueryResource, '/query')
+resource_kw_args={ 'api_key' : APIKey.get_key () }
+api.add_resource(ObservationResource, '/observation', resource_class_kwargs=resource_kw_args)
+api.add_resource(ObservationQueryResource, '/query', resource_class_kwargs=resource_kw_args)
 
 if __name__ == "__main__":
    parser = argparse.ArgumentParser(description='Genomic Observation API')

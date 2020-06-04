@@ -1,0 +1,53 @@
+#######################################################
+##
+## Values for the RestartR Helm Chart
+##
+##   Global values 
+##   The RestartR observation API
+##   MongoDB database.
+##   Mongo-Express admin user interface for Mongo
+##   Storage configuration
+##
+#######################################################
+namespace: helx-dev
+mongo_username: root
+mongo_password: example
+mongo_port: 27017
+mongo_host: mongo
+api_key: 439598345702938570239
+api:
+  deployment_name: restartr-api-deployment
+  service_name: restartr-api-service
+  app_name: restartr-api
+  replicas: 1
+  image: heliumdatastage/restartr
+  image_tag: 0.0.1
+  port: 5552 # not actually configurable.
+  restart: "Always"
+  request:
+    memory: 200Mi
+    cpu: 0.25
+  limit:
+    memory: 4096Mi
+    cpu: 3
+mongo:
+  image: mongo
+  image_tag: 4.2
+  port: 27017
+  request:
+    memory: 200Mi
+    cpu: 0.25
+  limit:
+    memory: 8192Mi
+    cpu: 4
+mongo_express:
+  image: mongo-express
+  image_tag: latest
+  port: 8081
+storage:
+  pv_name: restartr-pv
+  pvc_name: restartr-pvc
+  volume_name: restartr-volume
+  storage_size: 5Gi
+  storage_path: "/opt/data"
+

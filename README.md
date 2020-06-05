@@ -35,7 +35,7 @@ As we move towards deployment, we'll create a Kubernetes Helm chart for the envi
 This will use production environment secrets for the various passwords and API keys involved.
 
 ### Secrets
-Secrets are passed via environment variables in development and production modes:
+Secrets are passed via environment variables in development and production modes. The start script uses any variables already set in the environment. It also provides defaults for use in development only:
 ![image](https://user-images.githubusercontent.com/306971/83798948-0abf9900-a673-11ea-8eda-7e9d51043dab.png)
 Defaults are provided in development but cal all be overriden with Docker ENV variables in Kubernetes.
 

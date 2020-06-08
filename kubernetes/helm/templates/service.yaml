@@ -4,9 +4,15 @@ metadata:
   name: {{ .Values.api.service_name }}
   namespace: {{ .Values.namespace }}
 spec:
+  type: LoadBalancer
   selector:
     app: {{ .Values.api.app_name }}
   ports:
-  - protocol: TCP
-    port: {{ .Values.api.port }}
-    targetPort: {{ .Values.api.port }}
+    - name: api-http
+      protocol: TCP
+      port: {{ .Values.api.port }}
+      targetPort: {{ .Values.api.port }}
+    - name: mongo-express-http
+      protocol: TCP
+      port: {{ .Values.mongo_express.port }}
+      targetPort: {{ .Values.mongo_express.port }}

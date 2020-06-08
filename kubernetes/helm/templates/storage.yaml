@@ -1,35 +1,37 @@
 apiVersion: v1
 items:
-- apiVersion: v1
-  kind: PersistentVolume
-  metadata:
-    name: {{ .Values.tranql_logs.pv_name }}
-  spec:
-    accessModes:
-    - ReadWriteMany
-    capacity:
-      storage: {{ .Values.tranql_logs.storage_size }}
-    {{ if .Values.tranql_logs.storage_nfs_server }}
-    # For prod we can use nfs server
-    nfs:
-      server: {{ .Values.tranql_logs.storage_nfs_server }}
-      path: {{ .Values.tranql_logs.storage_path }}
-    {{ else }}
-    # For local set .Values.tranql_logs.storage_nfs_server to "" and mount host path
-    hostPath:
-      path: {{ .Values.tranql_logs.storage_path }}
-    {{ end }}
-    persistentVolumeReclaimPolicy: Retain
-    storageClassName: {{ .Values.tranql_logs.pv_name }}
-- apiVersion: v1
-  kind: PersistentVolumeClaim
-  metadata:
-    name: {{ .Values.tranql_logs.pvc_name }}
-  spec:
-    accessModes:
-    - ReadWriteMany
-    resources:
-      requests:
-        storage: {{ .Values.tranql_logs.storage_size }}
-    storageClassName: {{ .Values.tranql_logs.pv_name }}
+  - apiVersion: v1
+    kind: PersistentVolume
+    metadata:
+      name: {{ .Values.storage.pv_name }}
+      namespace: {{ .Values.namespace }}
+    spec:
+      accessModes:
+        - ReadWriteMany
+      capacity:
+        storage: {{ .Values.storage.storage_size }}
+      {{ if .Values.storage.storage_nfs_server }}
+      # For prod we can use nfs server
+      nfs:
+        server: {{ .Values.storage.storage_nfs_server }}
+        path: {{ .Values.storage.storage_path }}
+      {{ else }}
+      # For local set .Values.storage.storage_nfs_server to "" and mount host path
+      hostPath:
+        path: {{ .Values.storage.storage_path }}
+      {{ end }}
+#      persistentVolumeReclaimPolicy: Retain
+      storageClassName: {{ .Values.storage.pv_name }}
+  - apiVersion: v1
+    kind: PersistentVolumeClaim
+    metadata:
+      name: {{ .Values.storage.pvc_name }}
+      namespace: {{ .Values.namespace }}
+    spec:
+      accessModes:
+        - ReadWriteMany
+      resources:
+        requests:
+          storage: {{ .Values.storage.storage_size }}
+      storageClassName:
 kind: List

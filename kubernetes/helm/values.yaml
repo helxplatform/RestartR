@@ -9,12 +9,12 @@
 ##   Storage configuration
 ##
 #######################################################
-namespace: helx-dev
+namespace: braini-dev-singh
 mongo_username: root
 mongo_password: example
 mongo_port: 27017
-mongo_host: mongo
-api_key: 439598345702938570239
+mongo_host: localhost
+api_key: 98079798709797v98709
 api:
   deployment_name: restartr-api-deployment
   service_name: restartr-api-service
@@ -32,6 +32,7 @@ api:
     cpu: 3
 mongo:
   image: mongo
+  app_name: restartr-mongo
   image_tag: 4.2
   port: 27017
   request:
@@ -42,6 +43,7 @@ mongo:
     cpu: 4
 mongo_express:
   image: mongo-express
+  app_name: restartr-mongo-express
   image_tag: latest
   port: 8081
 storage:
@@ -50,4 +52,3 @@ storage:
   volume_name: restartr-volume
   storage_size: 5Gi
   storage_path: "/opt/data"
-

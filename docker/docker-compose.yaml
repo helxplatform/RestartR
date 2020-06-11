@@ -57,7 +57,7 @@ services:
   ##
   ################################################
   restartr:
-    image: heliumdatastage/restartr:0.0.1
+    image: heliumdatastage/restartr:1.0.2
     networks:
       - restartr-net
     ports:
@@ -71,7 +71,7 @@ services:
       MONGO_PORT: 27017
       MONGO_HOST: mongo
       API_KEY: $API_KEY
-      
+
 networks:
   restartr-net:
     driver: bridge

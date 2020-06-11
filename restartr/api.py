@@ -17,7 +17,7 @@ from flask_pymongo import PyMongo
 from bson import ObjectId
 
 class JSONEncoder(json.JSONEncoder):
-    """ JSON Encodes Mongo ObjectId. """ 
+    """ JSON Encodes Mongo ObjectId. """
     def default(self, o):
         if isinstance(o, ObjectId):
             return str(o)
@@ -100,7 +100,7 @@ class RestartRResource(Resource):
             'result'  : result,
             'message' : message
         }
-            
+
 class ObservationResource(RestartRResource):
     """ System initiation. """
     def post(self):
@@ -230,7 +230,7 @@ class ObservationQueryResource(RestartRResource):
                 exception=e,
                 message=f"Query failed: {json.dumps(request.json, indent=2)}.")
         return response
-    
+
 
 """ Register endpoints. """
 resource_kw_args={ 'api_key' : APIKey.get_key () }

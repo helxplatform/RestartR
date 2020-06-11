@@ -22,77 +22,80 @@ spec:
             claimName: {{ .Values.storage.pvc_name }}
       terminationGracePeriodSeconds: 10
       containers:
-      - name: {{ .Values.api.app_name }}-container
-        image: {{ .Values.api.image }}:{{ .Values.api.image_tag }}
-        command: [ "/home/restartr/restartr/bin/restartr", "api_prod" ]
-        ports:
-          - containerPort: {{ .Values.api.port }}
-            name: http
-        env:
-          - name: MONGO_USERNAME
-            value: {{ .Values.mongo_username | quote }}
-          - name: MONGO_PASSWORD
-            value: {{ .Values.mongo_username | quote }}
-          - name: MONGO_HOST
-            value: {{ .Values.mongo_host | quote }}
-          - name: MONGO_PORT
-            value: {{ .Values.mongo_port | quote }}
-          - name: API_KEY
-            value: {{ .Values.api_key | quote }}
-          - name: POD_NAME
-            valueFrom:
-              fieldRef:
-                fieldPath: metadata.name
-          - name: ACCESS_LOG
-            value: "/var/nfs/restartr_api_access_log"
-          - name: ERROR_LOG
-            value: "/var/nfs/restartr_api_error_log"
-        volumeMounts:
-          - name: {{ .Values.storage.volume_name }}
-            mountPath: /var/nfs
-        resources:
-          requests:
-            memory: {{ .Values.api.request.memory }}
-            cpu: {{ .Values.api.request.cpu }}
-          limits:
-            memory: {{ .Values.api.limit.memory }}
-            cpu: {{ .Values.api.limit.cpu }}
-      - name: {{ .Values.mongo.app_name }}-container
-        image: {{ .Values.mongo.image }}:{{ .Values.mongo.image_tag }}
-        ports:
-          - containerPort: {{ .Values.mongo.port }}
-            name: http
-        env:
-          - name: MONGO_USERNAME
-            value: {{ .Values.mongo_username | quote }}
-          - name: MONGO_PASSWORD
-            value: {{ .Values.mongo_password | quote }}
-          - name: POD_NAME
-            valueFrom:
-              fieldRef:
-                fieldPath: metadata.name
-        volumeMounts: # mount in the right spot for mongo data.
-          - name: {{ .Values.storage.volume_name }}
-            mountPath: /var/nfs
-        resources:
-          requests:
-            memory: {{ .Values.api.request.memory }}
-            cpu: {{ .Values.api.request.cpu }}
-          limits:
-            memory: {{ .Values.api.limit.memory }}
-            cpu: {{ .Values.api.limit.cpu }}
-      - name: {{ .Values.mongo_express.app_name }}-container
-        image: {{ .Values.mongo_express.image }}:{{ .Values.mongo_express.image_tag }}
-        ports:
-          - containerPort: {{ .Values.mongo_express.port }}
-            name: http
-        env:
-          - name: MONGO_USERNAME
-            value: {{ .Values.mongo_username | quote }}
-          - name: MONGO_PASSWORD
-            value: {{ .Values.mongo_password | quote }}
-          - name: POD_NAME
-            valueFrom:
-              fieldRef:
-                fieldPath: metadata.name
+        - name: {{ .Values.api.app_name }}-container
+          image: {{ .Values.api.image }}:{{ .Values.api.image_tag }}
+          command: [ "/home/restartr/restartr/bin/restartr", "api" ]
+          ports:
+            - containerPort: {{ .Values.api.port }}
+              name: http
+          env:
+            - name: MONGO_USERNAME
+              value: {{ .Values.mongo_username | quote }}
+            - name: MONGO_PASSWORD
+              value: {{ .Values.mongo_password | quote }}
+            - name: MONGO_HOST
+              value: {{ .Values.mongo_host | quote }}
+            - name: MONGO_PORT
+              value: {{ .Values.mongo_port | quote }}
+            - name: API_KEY
+              value: {{ .Values.api_key | quote }}
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+            - name: ACCESS_LOG
+              value: "/var/nfs/restartr_api_access_log"
+            - name: ERROR_LOG
+              value: "/var/nfs/restartr_api_error_log"
+          volumeMounts:
+            - name: {{ .Values.storage.volume_name }}
+              mountPath: /var/nfs
+          resources:
+            requests:
+              memory: {{ .Values.api.request.memory }}
+              cpu: {{ .Values.api.request.cpu }}
+            limits:
+              memory: {{ .Values.api.limit.memory }}
+              cpu: {{ .Values.api.limit.cpu }}
+        - name: {{ .Values.mongo.app_name }}-container
+          image: {{ .Values.mongo.image }}:{{ .Values.mongo.image_tag }}
+          ports:
+              - containerPort: {{ .Values.mongo.port }}
+                name: http
+          env:
+            - name: MONGO_INITDB_ROOT_USERNAME
+              value: {{ .Values.mongo_username | quote }}
+            - name: MONGO_INITDB_ROOT_PASSWORD
+              value: {{ .Values.mongo_password | quote }}
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
+          volumeMounts: # mount in the right spot for mongo data.
+            - name: {{ .Values.storage.volume_name }}
+              mountPath: /var/nfs/restartr
+              subPath: restartr
+          resources:
+            requests:
+              memory: {{ .Values.api.request.memory }}
+              cpu: {{ .Values.api.request.cpu }}
+            limits:
+              memory: {{ .Values.api.limit.memory }}
+              cpu: {{ .Values.api.limit.cpu }}
+        - name: {{ .Values.mongo_express.app_name }}-container
+          image: {{ .Values.mongo_express.image }}:{{ .Values.mongo_express.image_tag }}
+          ports:
+            - containerPort: {{ .Values.mongo_express.port }}
+              name: http
+          env:
+            - name: ME_CONFIG_MONGODB_ADMINUSERNAME
+              value: {{ .Values.mongo_username | quote }}
+            - name: ME_CONFIG_MONGODB_ADMINPASSWORD
+              value: {{ .Values.mongo_password | quote }}
+            - name: ME_CONFIG_MONGODB_SERVER
+              value: {{ .Values.mongo_host | quote }}
+            - name: POD_NAME
+              valueFrom:
+                fieldRef:
+                  fieldPath: metadata.name
       restartPolicy: {{ .Values.api.restart }}

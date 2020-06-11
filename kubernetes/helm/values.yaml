@@ -14,7 +14,7 @@ mongo_username: root
 mongo_password: example
 mongo_port: 27017
 mongo_host: localhost
-api_key: 439598345702938570239
+api_key: "439598345702938570239"
 api:
   deployment_name: restartr-api-deployment
   service_name: restartr-api-service

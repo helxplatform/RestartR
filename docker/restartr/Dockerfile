@@ -26,18 +26,17 @@ RUN \
         find . -type f -iname *.py -exec chmod 775 {} \; && \
         find bin -type f -exec chmod 775 {} \; && \
         find . -type d -exec chmod 775 {} \; && \
-        rm -rf /var/cache/apk/* &&
-            \
+        rm -rf /var/cache/apk/* && \
 	apt-get remove -y --purge  git
 
 USER $USER
 ENV PYTHONPATH $HOME/restartr
-ENV API_KEY 439598345702938570239
+ENV API_KEY 3241234
 ENV MONGO_USERNAME root
 ENV MONGO_PASSWORD example
 ENV MONGO_HOST mongo
 ENV MONGO_PORT 27017
 WORKDIR $HOME/restartr
-RUN  rm  -rf data docker kubernetes
+
 # Define the entrypoint.
 ENTRYPOINT bin/restartr api

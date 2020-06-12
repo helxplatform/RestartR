@@ -9,7 +9,6 @@
 ##   Storage configuration
 ##
 #######################################################
-namespace: braini-dev-singh
 mongo_username: root
 mongo_password: example
 mongo_port: 27017
@@ -47,8 +46,5 @@ mongo_express:
   image_tag: latest
   port: 8081
 storage:
-  pv_name: restartr-pv
-  pvc_name: existing-pvc
+  pvc_name: stdnfs
   volume_name: restartr-volume
-  storage_size: 5Gi
-  storage_path: "/opt/data"

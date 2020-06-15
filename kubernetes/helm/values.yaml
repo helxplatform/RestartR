@@ -14,6 +14,10 @@ mongo_password: example
 mongo_port: 27017
 mongo_host: localhost
 api_key: "439598345702938570239"
+## If true create ambassador metadata for restartr
+ambassador:
+  in_helx: True
+## restartr API container
 api:
   deployment_name: restartr-api-deployment
   service_name: restartr-api-service
@@ -29,6 +33,7 @@ api:
   limit:
     memory: 4096Mi
     cpu: 3
+## Mongo Db container
 mongo:
   image: mongo
   app_name: restartr-mongo
@@ -40,6 +45,8 @@ mongo:
   limit:
     memory: 8192Mi
     cpu: 4
+# Mongo-express container
+
 mongo_express:
   image: mongo-express
   app_name: restartr-mongo-express

@@ -2,7 +2,7 @@
 ##
 ## Values for the RestartR Helm Chart
 ##
-##   Global values 
+##   Global values
 ##   The RestartR observation API
 ##   MongoDB database.
 ##   Mongo-Express admin user interface for Mongo
@@ -48,6 +48,7 @@ mongo:
 # Mongo-express container
 
 mongo_express:
+  # enabled: true
   image: mongo-express
   app_name: restartr-mongo-express
   image_tag: latest

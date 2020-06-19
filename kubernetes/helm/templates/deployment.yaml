@@ -74,6 +74,10 @@ spec:
             - name: {{ .Values.storage.volume_name }}
               mountPath: /var/nfs/restartr
               subPath: restartr
+          volumeMounts:
+            - name: {{ .Values.storage.volume_name }}
+              mountPath: /data/db
+              subPath: mongo_db
           resources:
             requests:
               memory: {{ .Values.api.request.memory }}
@@ -81,6 +85,7 @@ spec:
             limits:
               memory: {{ .Values.api.limit.memory }}
               cpu: {{ .Values.api.limit.cpu }}
+      {{- if .Values.mongo_express.enabled }}
         - name: {{ .Values.mongo_express.app_name }}-container
           image: {{ .Values.mongo_express.image }}:{{ .Values.mongo_express.image_tag }}
           ports:
@@ -98,3 +103,4 @@ spec:
                 fieldRef:
                   fieldPath: metadata.name
       restartPolicy: {{ .Values.api.restart }}
+      {{- end }}

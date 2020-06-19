@@ -24,8 +24,10 @@ spec:
       port: {{ .Values.api.port }}
       targetPort: {{ .Values.api.port }}
   {{- if not .Values.ambassador.in_helx }}
+    {{- if .Values.mongo_express.enabled }}
     - name: mongo-express-http
       protocol: TCP
       port: {{ .Values.mongo_express.port }}
       targetPort: {{ .Values.mongo_express.port }}
+    {{- end }}
   {{- end }}

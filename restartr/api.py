@@ -39,7 +39,8 @@ debug=False
 app.config['SWAGGER'] = {
     'title': 'RestartingResearch Genomics Data API',
     'description': 'An API for genomics observations.',
-    'uiversion': 3
+    'uiversion': 3,
+    "static_url_path" : "/api/",
 }
 swagger = Swagger(app)
 

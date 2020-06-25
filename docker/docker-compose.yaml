@@ -57,12 +57,12 @@ services:
   ##
   ################################################
   restartr:
-    image: heliumdatastage/restartr:1.0.2
+    image: heliumdatastage/restartr:1.0.4
     networks:
       - restartr-net
     ports:
       - 5552:5552
-    entrypoint: "/home/restartr/restartr/bin/restartr api"
+    entrypoint: "/home/restartr/restartr/bin/restartr api -d"
     volumes:
       - $PWD:/home/restartr/restartr
     environment:

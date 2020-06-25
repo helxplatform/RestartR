@@ -9,7 +9,8 @@ import time
 import traceback
 import yaml
 import uuid
-from flasgger import Swagger
+from flasgger import Swagger ,LazyString, LazyJSONEncoder
+
 from flask import Flask, jsonify, g, Response, request
 from flask_restful import Api, Resource
 from flask_cors import CORS
@@ -29,7 +30,6 @@ Defines the restarting research genomics data API.
 logger = logging.getLogger (__name__)
 
 app = Flask(__name__)
-
 """ Enable CORS. """
 api = Api(app)
 CORS(app)
@@ -40,7 +40,8 @@ app.config['SWAGGER'] = {
     'title': 'RestartingResearch Genomics Data API',
     'description': 'An API for genomics observations.',
     'uiversion': 3,
-    "static_url_path" : "/api/",
+    'static_url_path': '/api/',
+
 }
 swagger = Swagger(app)
 
@@ -101,6 +102,7 @@ class RestartRResource(Resource):
             'result'  : result,
             'message' : message
         }
+
 
 class ObservationResource(RestartRResource):
     """ System initiation. """
@@ -235,8 +237,8 @@ class ObservationQueryResource(RestartRResource):
 
 """ Register endpoints. """
 resource_kw_args={ 'api_key' : APIKey.get_key () }
-api.add_resource(ObservationResource, '/observation', resource_class_kwargs=resource_kw_args)
-api.add_resource(ObservationQueryResource, '/query', resource_class_kwargs=resource_kw_args)
+api.add_resource(ObservationResource, '/api/observation', resource_class_kwargs=resource_kw_args)
+api.add_resource(ObservationQueryResource, '/api/query', resource_class_kwargs=resource_kw_args)
 
 if __name__ == "__main__":
    parser = argparse.ArgumentParser(description='Genomic Observation API')

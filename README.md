@@ -4,7 +4,7 @@ RestartR is an API for collecting observations.
 RestartR observations are 
 * **JSON**: Observations are JSON objects.
 * **Schemaless**. That is, it accepts data observations in any syntactically valid JSON object structure.
-
+  
 Operations are:
 * **observation**: Use HTTP post requests to record an observation.
 * **query**: Query the system for recorded observations.

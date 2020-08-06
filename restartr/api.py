@@ -236,7 +236,7 @@ class ObservationQueryResource(RestartRResource):
         try:
             obj = dict(request.json)
             if "id" in obj:
-                obj["id"] = ObjectId(obj["id"])
+                obj["_id"] = ObjectId(obj["_id"])
             authenticated = request.headers['X-API-Key'] == self.api_key
             assert authenticated, f"API Key presented does not match key configured for this system."
             response = {
@@ -253,8 +253,8 @@ class ObservationQueryResource(RestartRResource):
 
 """ Register endpoints. """
 resource_kw_args = {'api_key': APIKey.get_key()}
-api.add_resource(ObservationResource, '/observation', resource_class_kwargs=resource_kw_args)
-api.add_resource(ObservationQueryResource, '/query', resource_class_kwargs=resource_kw_args)
+api.add_resource(ObservationResource, '/api/observation', resource_class_kwargs=resource_kw_args)
+api.add_resource(ObservationQueryResource, '/api/query', resource_class_kwargs=resource_kw_args)
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Genomic Observation API')

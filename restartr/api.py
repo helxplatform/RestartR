@@ -235,7 +235,7 @@ class ObservationQueryResource(RestartRResource):
         response = {}
         try:
             obj = dict(request.json)
-            if "id" in obj:
+            if "_id" in obj:
                 obj["_id"] = ObjectId(obj["_id"])
             authenticated = request.headers['X-API-Key'] == self.api_key
             assert authenticated, f"API Key presented does not match key configured for this system."

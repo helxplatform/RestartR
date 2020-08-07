@@ -2,20 +2,16 @@ import argparse
 import json
 import logging
 import os
-import pymongo
-import requests
 import sys
 import time
 import traceback
-import yaml
-import uuid
-from flasgger import Swagger ,LazyString, LazyJSONEncoder
 
-from flask import Flask, jsonify, g, Response, request
-from flask_restful import Api, Resource
+from bson import ObjectId
+from flasgger import Swagger
+from flask import Flask, request
 from flask_cors import CORS
 from flask_pymongo import PyMongo
-from bson import ObjectId
+from flask_restful import Api, Resource
 
 
 class JSONEncoder(json.JSONEncoder):
@@ -235,13 +231,20 @@ class ObservationQueryResource(RestartRResource):
         response = {}
         try:
             obj = dict(request.json)
+            print("--------------", obj)
+            find_query = None
             if "_id" in obj:
                 obj["_id"] = ObjectId(obj["_id"])
             authenticated = request.headers['X-API-Key'] == self.api_key
             assert authenticated, f"API Key presented does not match key configured for this system."
+
+            if obj.get("byField", False):
+                find_query = {obj["byField"].rsplit(".")[0] + ".$": True}
+                del obj["byField"]
+
             response = {
                 "data": json.loads(JSONEncoder().encode(
-                    [x for x in observation.db.observation.find(obj)]
+                    [x for x in observation.db.observation.find(obj, find_query)]
                 ))
             }
         except Exception as e:

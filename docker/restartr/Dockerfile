@@ -29,6 +29,7 @@ RUN \
         rm -rf /var/cache/apk/* && \
 	apt-get remove -y --purge  git
 
+
 USER $USER
 ENV PYTHONPATH $HOME/restartr
 ENV API_KEY 3241234

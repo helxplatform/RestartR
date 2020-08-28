@@ -24,7 +24,7 @@ api:
   app_name: restartr-api
   replicas: 1
   image: heliumdatastage/restartr
-  image_tag: 1.0.4
+  image_tag: cca-prod-v0.0.7
   port: 5552 # not actually configurable.
   restart: "Always"
   request:
@@ -53,6 +53,12 @@ mongo_express:
   app_name: restartr-mongo-express
   image_tag: latest
   port: 8081
+
+jobs:
+  -name :mongodb-backup
+
 storage:
   pvc_name: stdnfs
   volume_name: restartr-volume
+  mongo_db_subpath: mongo_db
+  mongo_db_backup_subpath: mongo_db_backup

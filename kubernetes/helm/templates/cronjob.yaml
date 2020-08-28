@@ -1,0 +1,31 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: restartr-api-deployment-job
+  labels:
+    service: {{ .Values.api.service_name }}
+    app: {{ .Values.api.app_name }}
+spec:
+  schedule: "* * * * *"
+  successfulJobsHistoryLimit: 1
+  failedJobsHistoryLimit: 0
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: mongo-backup
+              image: {{ .Values.mongo.image }}
+              command: [ "/home/restartr/restartr/bin/mongo_backup.sh", {{ .Values.mongo_username | quote }}, {{ .Values.mongo_password | quote }} ]
+              #command: [ "mongodump", "--host", "restartr-api-service", "--port", "27017", "--username", {{ .Values.mongo_username | quote }}, "--password", {{ .Values.mongo_password | quote }}, "--out", "/data/backup/" ]
+              #command: [ 'sh','-c', 'while :; do echo "Hit CTRL+C"; sleep 1; done' ]
+              volumeMounts:
+                - name: {{ .Values.storage.volume_name }}
+                  mountPath: /data/backup
+                  subPath: {{ .Values.storage.mongo_db_backup_subpath }}
+          volumes:
+            - name: {{ .Values.storage.volume_name }}
+              persistentVolumeClaim:
+                claimName: {{ .Values.storage.pvc_name }}
+          restartPolicy: Never
+

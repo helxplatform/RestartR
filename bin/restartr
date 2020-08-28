@@ -50,7 +50,7 @@ tests () {
 		 --header "X-API-Key: $API_KEY" \
 		 --request POST \
 		 --silent \
-		 http://localhost:5552/observation
+		 http://localhost:5552/api/observation
 	done
     }
     query () {
@@ -62,7 +62,7 @@ tests () {
 		 --header "X-API-Key: $API_KEY" \
 		 --request POST \
 		 --silent \
-		 http://localhost:5552/query
+		 http://localhost:5552/api/query
 	done
     }
     $*

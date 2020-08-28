@@ -70,14 +70,15 @@ spec:
               valueFrom:
                 fieldRef:
                   fieldPath: metadata.name
-          volumeMounts: # mount in the right spot for mongo data.
-            - name: {{ .Values.storage.volume_name }}
-              mountPath: /var/nfs/restartr
-              subPath: restartr
           volumeMounts:
             - name: {{ .Values.storage.volume_name }}
               mountPath: /data/db
-              subPath: mongo_db
+              subPath: {{ .Values.storage.mongo_db_subpath }}
+
+            - name: {{ .Values.storage.volume_name }}
+              mountPath: /data/backup
+              subPath: {{ .Values.storage.mongo_db_backup_subpath }}
+
           resources:
             requests:
               memory: {{ .Values.api.request.memory }}

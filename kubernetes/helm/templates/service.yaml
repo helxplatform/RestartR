@@ -2,6 +2,19 @@ apiVersion: v1
 kind: Service
 metadata:
   name: {{ .Values.api.service_name }}
+  {{- if .Values.ambassador.in_helx }}
+  annotations:
+    getambassador.io/config: |
+      ---
+      apiVersion: ambassador/v1
+      kind:  Mapping
+      name:  restartr-mapping
+      prefix: /api/
+      service: {{ .Values.api.service_name }}:{{ .Values.api.port }}
+      timeout_ms: 300000
+      idle_timeout_ms: 500000
+      connect_timeout_ms: 500000
+    {{- end }}
 spec:
   selector:
     app: {{ .Values.api.app_name }}
@@ -10,11 +23,16 @@ spec:
       protocol: TCP
       port: {{ .Values.api.port }}
       targetPort: {{ .Values.api.port }}
-  {{- if not .Values.ambassador.in_helx }}
-    {{- if .Values.mongo_express.enabled }}
-    - name: mongo-express-http
+    - name: mongo-http
       protocol: TCP
-      port: {{ .Values.mongo_express.port }}
-      targetPort: {{ .Values.mongo_express.port }}
-    {{- end }}
+      port: {{ .Values.mongo.port }}
+      targetPort: {{ .Values.mongo.port }}
+
+  {{- if not .Values.ambassador.in_helx }}
+  {{- if .Values.mongo_express.enabled }}
+  - name: mongo-express-http
+    protocol: TCP
+    port: {{ .Values.mongo_express.port }}
+    targetPort: {{ .Values.mongo_express.port }}
+  {{- end }}
   {{- end }}

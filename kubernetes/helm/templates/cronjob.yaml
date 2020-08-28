@@ -1,0 +1,30 @@
+apiVersion: batch/v1beta1
+kind: CronJob
+metadata:
+  name: restartr-api-deployment-job
+  labels:
+    service: {{ .Values.api.service_name }}
+    app: {{ .Values.api.app_name }}
+spec:
+  schedule: "* * * * *"
+  successfulJobsHistoryLimit: 1
+  failedJobsHistoryLimit: 0
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+            - name: mongo-backup
+              image: heliumdatastage/restartr:mongo-cca-v0.0.1
+              command: [ "/bin/bash","-c"]
+              args: ['bash mongo_backup.sh {{ .Values.mongo.port }} {{ .Values.mongo_username | quote }} {{ .Values.mongo_password | quote }}']
+              volumeMounts:
+                - name: {{ .Values.storage.volume_name }}
+                  mountPath: /data/backup
+                  subPath: {{ .Values.storage.mongo_db_backup_subpath }}
+          volumes:
+            - name: {{ .Values.storage.volume_name }}
+              persistentVolumeClaim:
+                claimName: {{ .Values.storage.pvc_name }}
+          restartPolicy: Never
+

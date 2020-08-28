@@ -15,10 +15,9 @@ spec:
         spec:
           containers:
             - name: mongo-backup
-              image: {{ .Values.mongo.image }}
-              command: [ "/home/restartr/restartr/bin/mongo_backup.sh", {{ .Values.mongo_username | quote }}, {{ .Values.mongo_password | quote }} ]
-              #command: [ "mongodump", "--host", "restartr-api-service", "--port", "27017", "--username", {{ .Values.mongo_username | quote }}, "--password", {{ .Values.mongo_password | quote }}, "--out", "/data/backup/" ]
-              #command: [ 'sh','-c', 'while :; do echo "Hit CTRL+C"; sleep 1; done' ]
+              image: heliumdatastage/restartr:mongo-cca-v0.0.1
+              command: [ "/bin/bash","-c"]
+              args: ['bash mongo_backup.sh {{ .Values.mongo.port }} {{ .Values.mongo_username | quote }} {{ .Values.mongo_password | quote }}']
               volumeMounts:
                 - name: {{ .Values.storage.volume_name }}
                   mountPath: /data/backup

@@ -54,9 +54,6 @@ mongo_express:
   image_tag: latest
   port: 8081
 
-jobs:
-  -name :mongodb-backup
-
 storage:
   pvc_name: stdnfs
   volume_name: restartr-volume

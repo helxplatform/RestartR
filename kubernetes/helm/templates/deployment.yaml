@@ -89,7 +89,6 @@ spec:
       {{- if .Values.mongo_express.enabled }}
         - name: {{ .Values.mongo_express.app_name }}-container
           image: {{ .Values.mongo_express.image }}:{{ .Values.mongo_express.image_tag }}
-          command: [ "* * * * *mongodump --username $MONGO_USERNAME --password $MONGO_PASSWORD" ]
           ports:
             - containerPort: {{ .Values.mongo_express.port }}
               name: http

@@ -57,7 +57,7 @@ services:
   ##
   ################################################
   restartr:
-    image: heliumdatastage/restartr:1.0.2
+    image: helxplatform/restartr:1.0.8
     networks:
       - restartr-net
     ports:

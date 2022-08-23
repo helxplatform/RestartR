@@ -52,7 +52,7 @@ mongoengine==0.20.0
 more-itertools==8.2.0
 mypy==0.770
 mypy-extensions==0.4.3
-nbconvert==5.6.1
+nbconvert==6.5.1
 nbformat==5.0.4
 neo4j==1.7.6
 neo4jrestclient==2.1.1
